@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barghyar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
+<style>
+  body {
+    font-family: 'Vazirmatn', sans-serif;
+  }
+  a:focus-visible, input:focus-visible, button:focus-visible {
+    outline: 2px solid #facc15;
+    outline-offset: 2px;
+  }
+</style>
+</head>
+<body  class="overflow-x-hidden bg-[#0f172a] text-white antialiased">
+    
+<!-- Header -->
+  <header class="Header group sticky top-0 z-50 border-b border-slate-800 bg-[#0f172a] backdrop-blur">
+    <div class="Header-content mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4">
+
+      <a href="index.html" class="flex items-center gap-2 text-lg font-bold sm:text-xl">
+        <span class="text-yellow-400">⚡</span>
+  <div class="flex items-center gap-2">
+    <span class="text-lg font-black">برق‌یار</span>
+    <span class="h-5 w-px bg-slate-600"></span>
+    <span class="text-[15px] tracking-wide text-slate-400 pt-1">Barghyar</span>
+  </div>
+      </a>
+<!-- Header Nav -->
+      <nav class="Header-Nav hidden items-center gap-7 text-sm text-slate-300 md:flex">
+        <a href="index.html" class="text-yellow-400">خانه</a>
+        <a href="#" class="transition hover:text-white">آموزش</a>
+        <a href="#" class="transition hover:text-white">دانشنامه</a>
+        <a href="#" class="transition hover:text-white">مقالات</a>
+        <a href="#" class="transition hover:text-white">ابزارها</a>
+        <a href="#" class="transition hover:text-white">پروژه‌ها</a>
+      </nav>
+<!-- Header botten -->
+      <div class="Header-Button flex items-center gap-2">
+        <a href="#" class="whitespace-nowrap rounded-lg bg-yellow-400 px-3 py-2 text-xs font-bold text-slate-950 transition hover:bg-yellow-300 sm:px-5 sm:text-sm">
+          ورود / ثبت‌نام
+        </a>
+
+<!-- Mobile menu button -->
+ <!-- Hamburger Menu -->
+        <input id="menu-toggle" type="checkbox" class="sr-only" aria-label="باز و بسته کردن منو" />
+        <label for="menu-toggle" class="inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-slate-700 text-slate-300 transition hover:text-white md:hidden">
+          <svg class="h-5 w-5 group-has-[:checked]:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="hidden h-5 w-5 group-has-[:checked]:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </label>
+      </div>
+
+    </div>
+
+<!-- Mobile menu (Nav) -->
+    <nav id="mobile-menu" class="hidden border-t border-slate-800 px-4 pb-4 pt-2 group-has-[:checked]:block md:hidden" aria-label="منوی موبایل">
+      <div class="mx-auto flex max-w-7xl flex-col gap-1 text-sm">
+      <a href="index.html" class="rounded-lg px-3 py-3 bg-yellow-400/10 text-yellow-400">خانه</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">آموزش</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">دانشنامه</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">مقالات</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">ابزارها</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">پروژه‌ها</a>
+      </div>
+    </nav>
+  </header>
+
+<section class="section1 bg-[#121b31]">
+
+<div class="w-full h-[350px] flex justify-center items-center border-b-2 border-b-gray-700 pt-9 pr-12">
+    <div class="w-[80%] h-[83%] flex">
+<!-- Banner Right -->
+<div class="w-[70%] h-full ">
+    
+<span class="inline-flex items-center gap-2 text-sm font-medium text-yellow-400"><span class="h-1.5 w-1.5 rounded-full bg-yellow-400"></span>مسیر یادگیری Barghyar</span>
+<h1 class="pt-5 text-[35px]">یادگیری مهندسی برق، <br><span class="text-gray-300">قدم به قدم تا رسیدن به آینده ای روشن</span></h1>
+<p class="pt-6 text-gray-400">مسیر مناسب و مورد‌علاقه خودت رو انتخاب کن، مفاهیم رو از پایه یادبگیر و آینده خودت رو بساز.</p>        
+</div>
+<!-- Banner Left -->
+<div class="w-[30%] h-full flex flex-col justify-center items-center ">
+    <p class="mb-6 pb-1 text-gray-500 border-b-2 border-b-gray-500"><span class="text-bold pl-2 text-white">6</span>مسیر یادگیری</p>
+    <p class="mb-6 pb-1 text-gray-500 border-b-2 border-b-gray-500"><span class="text-bold pl-2 text-white">+30</span>مطالب آموزشی</p>
+    <p class="mb-6 pb-1 text-gray-500 border-b-2 border-b-gray-500"><span class="text-bold pl-1 text-white"> همه </span>سطح</p>
+
+</div>
+    </div>
+</div>
+</section>
+
+<section class="mx-auto max-w-7xl px-4 py-16 sm:py-24">
+ 
+        <!-- سرتیتر بخش -->
+<div class="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end"><div>
+    <span class="text-xs font-medium text-yellow-400">مسیرهای آموزشی برق‌یار‌</span>
+    <h2 class="mt-3 text-3xl font-black tracking-tight sm:text-4xl">بریم که شروع کنیم؟</h2>
+    <p class=" pt-2 text-sm leading-8 text-slate-500">
+     هر مسیر یک نقطه شروع متفاوت برای یادگیری مهندسی برق است. مسیر
+     مناسب سطح خودت را انتخاب کن و قدم‌به‌قدم جلو برو.
+    </p>
+</div>
+<div class="hidden text-left lg:block">
+  <span class="text-xs text-slate-700">6 مسیر</span>
+  </div>
+   </div>
+ 
+        <!-- لیست کارت‌ها -->
+<div class="mt-12">
+  <div class="space-y-4">
+
+<!-- Card Number1 -->
+
+<a href="./MabaniBargh.html" class="group relative block">
+  <div class="relative overflow-hidden rounded-[1.75rem] border border-slate-800 bg-slate-900/30 transition-all duration-300 hover:-translate-x-1 hover:border-yellow-400/20 hover:bg-slate-900/60">
+
+<!-- خط سمت راست که موقع hover زرد می‌شه -->
+<div class="absolute bottom-0 right-0 top-0 w-0.5 bg-slate-800 transition duration-300 group-hover:bg-yellow-400"></div>
+
+<div class="relative flex flex-col gap-6 p-6 sm:p-7 lg:flex-row lg:items-center">
+
+<!-- شماره و آیکون -->
+<div class="flex items-center gap-4 lg:w-24 lg:shrink-0">
+<span class="text-4xl font-black leading-none text-slate-800 transition duration-300 group-hover:text-yellow-400/30">
+ 1 </span>
+ 
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-slate-800 bg-slate-950 text-2xl transition duration-300 group-hover:border-yellow-400/20 group-hover:bg-yellow-400/[0.05]">⚡</div>
+
+</div>
+<!-- محتوای اصلی -->
+<div class="min-w-0 flex-1">
+<div class="flex flex-wrap items-center gap-3">
+<h3 class="text-lg font-black text-white transition duration-300 group-hover:text-yellow-400 sm:text-xl">مبانی مهندسی برق</h3>
+ 
+<!-- برچسب سطح -->
+<span class="rounded-full border border-slate-800 bg-slate-950 px-3 py-1 text-[10px] font-medium text-slate-500">مقدماتی</span>
+</div>
+ 
+<p class="mt-3 max-w-3xl text-sm leading-8 text-slate-500">
+با مفاهیم پایه مثل ولتاژ، جریان، مقاومت و قانون اهم آشنا شو.
+</p>
+ 
+<!-- نوار پیشرفت -->
+<div class="mt-5 max-w-2xl">
+  <div class="mb-2 flex items-center justify-between text-[11px]">
+   <span class="text-slate-600">سختی مسیر</span>
+    <span class="font-bold text-yellow-400">5%</span>
+</div>
+ 
+ <div class="h-1.5 overflow-hidden rounded-full bg-slate-800">
+
+<!-- عرض نوار پیشرفت: عدد width رو عوض کن -->
+   <div class="h-full rounded-full bg-yellow-400 transition-all duration-500" style="width: 5%"></div>
+
+   </div>
+  </div>
+</div>
+ 
+<!-- بخش سمت چپ کارت: تعداد درس و فلش -->
+  <div class="flex items-center justify-between gap-6 border-t border-slate-800 pt-5 lg:w-48 lg:shrink-0 lg:border-r lg:border-t-0 lg:pr-6 lg:pt-0">
+  <div>
+ <span class="block text-[10px] text-slate-700">تعداد درس</span>
+ <strong class="mt-1 block text-sm font-bold text-slate-400">5 درس</strong>
+  </div>
+ 
+   <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-slate-800 text-slate-600 transition duration-300 group-hover:border-yellow-400/30 group-hover:bg-yellow-400 group-hover:text-slate-950"> ←
+      </div>
+    </div>
+  </div>
+ </div>
+</a>
+ 
+<!-- ============ کارت مسیر (حالت تکمیل‌شده، سبز) ============ -->
+<a href="/education/circuits" class="group relative block">
+   <div class="relative overflow-hidden rounded-[1.75rem] border border-slate-800 bg-slate-900/30 transition-all duration-300 hover:-translate-x-1 hover:border-yellow-400/20 hover:bg-slate-900/60">
+
+   <div class="absolute bottom-0 right-0 top-0 w-0.5 bg-slate-800 transition duration-300 group-hover:bg-yellow-400"></div>
+ 
+   <div class="relative flex flex-col gap-6 p-6 sm:p-7 lg:flex-row lg:items-center">
+ 
+   <div class="flex items-center gap-4 lg:w-24 lg:shrink-0">
+   <span class="text-4xl font-black leading-none text-slate-800 transition duration-300 group-hover:text-yellow-400/30">
+    2 </span>
+ 
+  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-slate-800 bg-slate-950 text-2xl transition duration-300 group-hover:border-yellow-400/20 group-hover:bg-yellow-400/[0.05]">
+   🔌
+   </div>
+</div>
+
+  <div class="min-w-0 flex-1">
+<div class="flex flex-wrap items-center gap-3">
+  <h3 class="text-lg font-black text-white transition duration-300 group-hover:text-yellow-400 sm:text-xl">
+     مدارهای الکتریکی
+  </h3>
+ 
+ <span class="rounded-full border border-slate-800 bg-slate-950 px-3 py-1 text-[10px] font-medium text-slate-500">
+    متوسط
+ </span>
+ </div>
+ 
+  <p class="mt-3 max-w-3xl text-sm leading-8 text-slate-500">
+روش‌های حل مدار مثل KVL، KCL و تحلیل گره و مش رو یاد بگیر.
+  </p>
+ 
+  <div class="mt-5 max-w-2xl">
+<div class="mb-2 flex items-center justify-between text-[11px]">
+  <span class="text-slate-600">سختی مسیر</span>
+  <span class="font-bold text-yellow-400">15%</span>
+</div>
+ 
+ <div class="h-1.5 overflow-hidden rounded-full bg-slate-800">
+  <div class="h-full rounded-full bg-yellow-400 transition-all duration-500" style="width: 15%"></div>
+ </div>
+ 
+  </div>
+</div>
+ 
+  <div class="flex items-center justify-between gap-6 border-t border-slate-800 pt-5 lg:w-48 lg:shrink-0 lg:border-r lg:border-t-0 lg:pr-6 lg:pt-0">
+  <div>
+  <span class="block text-[10px] text-slate-700">تعداد درس</span>
+  <strong class="mt-1 block text-sm font-bold text-slate-400">5 درس</strong>
+</div>
+ 
+   <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-slate-800 text-slate-600 transition duration-300 group-hover:border-yellow-400/30 group-hover:bg-yellow-400 group-hover:text-slate-950">
+   ←
+    </div>
+  </div>
+</div>
+</div>
+</a>
+
+ <!-- Card Number3 -->
+
+  <a href="/education/circuits" class="group relative block">
+<div class="relative overflow-hidden rounded-[1.75rem] border border-slate-800 bg-slate-900/30 transition-all duration-300 hover:-translate-x-1 hover:border-yellow-400/20 hover:bg-slate-900/60">
+ 
+  <div class="absolute bottom-0 right-0 top-0 w-0.5 bg-slate-800 transition duration-300 group-hover:bg-yellow-400"></div>
+ 
+  <div class="relative flex flex-col gap-6 p-6 sm:p-7 lg:flex-row lg:items-center">
+ 
+  <div class="flex items-center gap-4 lg:w-24 lg:shrink-0">
+    <span class="text-4xl font-black leading-none text-slate-800 transition duration-300 group-hover:text-yellow-400/30">
+    3</span>
+ 
+   <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-slate-800 bg-slate-950 text-2xl transition duration-300 group-hover:border-yellow-400/20 group-hover:bg-yellow-400/[0.05]">
+    🔌 </div>
+  </div>
+ 
+<div class="min-w-0 flex-1">
+<div class="flex flex-wrap items-center gap-3">
+    <h3 class="text-lg font-black text-white transition duration-300 group-hover:text-yellow-400 sm:text-xl">
+    الکترونیک
+ </h3>
+ 
+<span class="rounded-full border border-slate-800 bg-slate-950 px-3 py-1 text-[10px] font-medium text-slate-500">
+  متوسط </span>
+
+    </div>
+ 
+  <p class="mt-3 max-w-3xl text-sm leading-8 text-slate-500">
+ با دیود، ترانزیستور، فیدبک‌ها، تقویت کننده‌ها و اصول طراحی مدار های الکترونیکی
+  </p>
+ 
+  <div class="mt-5 max-w-2xl">
+ <div class="mb-2 flex items-center justify-between text-[11px]">
+<span class="text-slate-600">سختی مسیر</span>
+<span class="font-bold text-yellow-400">20%</span>
+  </div>
+ 
+     <div class="h-1.5 overflow-hidden rounded-full bg-slate-800">
+   <div class="h-full rounded-full bg-yellow-400 transition-all duration-500" style="width: 20%"></div>
+
+  </div>
+  
+ </div>
+</div>
+ 
+  <div class="flex items-center justify-between gap-6 border-t border-slate-800 pt-5 lg:w-48 lg:shrink-0 lg:border-r lg:border-t-0 lg:pr-6 lg:pt-0">
+<div>
+
+  <span class="block text-[10px] text-slate-700">تعداد درس</span>
+ <strong class="mt-1 block text-sm font-bold text-slate-400">5 درس</strong>
+</div>
+ 
+   <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-slate-800 text-slate-600 transition duration-300 group-hover:border-yellow-400/30 group-hover:bg-yellow-400 group-hover:text-slate-950">
+←
+        </div>
+      </div> 
+    </div>
+  </div>
+</a>
+
+<!-- Card Numder4-->
+
+  <a href="/education/circuits" class="group relative block">
+<div class="relative overflow-hidden rounded-[1.75rem] border border-slate-800 bg-slate-900/30 transition-all duration-300 hover:-translate-x-1 hover:border-yellow-400/20 hover:bg-slate-900/60">
+ 
+  <div class="absolute bottom-0 right-0 top-0 w-0.5 bg-slate-800 transition duration-300 group-hover:bg-yellow-400"></div>
+ <div class="relative flex flex-col gap-6 p-6 sm:p-7 lg:flex-row lg:items-center">
+ 
+  <div class="flex items-center gap-4 lg:w-24 lg:shrink-0">
+    <span class="text-4xl font-black leading-none text-slate-800 transition duration-300 group-hover:text-yellow-400/30">
+      4
+    </span>
+ 
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-slate-800 bg-slate-950 text-2xl transition duration-300 group-hover:border-yellow-400/20 group-hover:bg-yellow-400/[0.05]">
+         🔌  
+     </div>
+</div>
+ 
+<div class="min-w-0 flex-1">
+  <div class="flex flex-wrap items-center gap-3">
+  <h3 class="text-lg font-black text-white transition duration-300 group-hover:text-yellow-400 sm:text-xl">
+      مهندسی قدرت
+  </h3>
+ 
+   <span class="rounded-full border border-slate-800 bg-slate-950 px-3 py-1 text-[10px] font-medium text-slate-500">
+     پیشرفته
+   </span>
+ 
+</div>
+ 
+  <p class="mt-3 max-w-3xl text-sm leading-8 text-slate-500">
+     تولید، انتقال، توزیع و مصرف انرژی الکتریکی از دیدگاه مهندسی
+  </p>
+ 
+  <div class="mt-5 max-w-2xl">
+      <div class="mb-2 flex items-center justify-between text-[11px]">
+          <span class="text-slate-600">سختی مسیر</span>
+          <span class="font-bold text-yellow-400">35%</span>
+      </div>
+ 
+   <div class="h-1.5 overflow-hidden rounded-full bg-slate-800">
+      <div class="h-full rounded-full bg-yellow-400 transition-all duration-500" style="width: 35%"></div>
+   </div>
+ 
+  </div>
+ </div>
+ 
+  <div class="flex items-center justify-between gap-6 border-t border-slate-800 pt-5 lg:w-48 lg:shrink-0 lg:border-r lg:border-t-0 lg:pr-6 lg:pt-0">
+
+    <div>
+       <span class="block text-[10px] text-slate-700">تعداد درس</span>
+       <strong class="mt-1 block text-sm font-bold text-slate-400">5 درس</strong>
+    </div>
+ 
+    <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-slate-800 text-slate-600 transition duration-300 group-hover:border-yellow-400/30 group-hover:bg-yellow-400 group-hover:text-slate-950">
+       ←
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+
+<!-- Card Number5-->
+
+  <a href="/education/circuits" class="group relative block">
+
+    <div class="relative overflow-hidden rounded-[1.75rem] border border-slate-800 bg-slate-900/30 transition-all duration-300 hover:-translate-x-1 hover:border-yellow-400/20 hover:bg-slate-900/60">
+ 
+   <div class="absolute bottom-0 right-0 top-0 w-0.5 bg-slate-800 transition duration-300 group-hover:bg-yellow-400"></div>
+    <div class="relative flex flex-col gap-6 p-6 sm:p-7 lg:flex-row lg:items-center">
+
+    <div class="flex items-center gap-4 lg:w-24 lg:shrink-0">
+      <span class="text-4xl font-black leading-none text-slate-800 transition duration-300 group-hover:text-yellow-400/30">
+        5
+      </span>
+ 
+    <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-slate-800 bg-slate-950 text-2xl transition duration-300 group-hover:border-yellow-400/20 group-hover:bg-yellow-400/[0.05]">
+        🔌
+    </div>
+  </div>
+
+    <div class="min-w-0 flex-1">
+  <div class="flex flex-wrap items-center gap-3">
+    <h3 class="text-lg font-black text-white transition duration-300 group-hover:text-yellow-400 sm:text-xl">
+       سیستم‌های کنترل
+    </h3>
+ 
+  <span class="rounded-full border border-slate-800 bg-slate-950 px-3 py-1 text-[10px] font-medium text-slate-500">
+   پیشرفته
+  </span>
+ 
+ </div>
+ 
+  <p class="mt-3 max-w-3xl text-sm leading-8 text-slate-500">
+     با سیستم‌های کنترل، تابع تبدیل، پاسخ سیستم و کنترل کننده های مختلف
+  </p>
+ 
+  <div class="mt-5 max-w-2xl">
+  <div class="mb-2 flex items-center justify-between text-[11px]">
+    <span class="text-slate-600">سختی مسیر</span>
+     <span class="font-bold text-yellow-400">45%</span>
+    </div>
+ 
+<div class="h-1.5 overflow-hidden rounded-full bg-slate-800">
+<div class="h-full rounded-full bg-yellow-400 transition-all duration-500" style="width: 45%"></div>
+  </div>
+</div>
+</div>
+ 
+   <div class="flex items-center justify-between gap-6 border-t border-slate-800 pt-5 lg:w-48 lg:shrink-0 lg:border-r lg:border-t-0 lg:pr-6 lg:pt-0">
+   <div>
+  <span class="block text-[10px] text-slate-700">تعداد درس</span>
+ <strong class="mt-1 block text-sm font-bold text-slate-400">5 درس</strong>
+  </div>
+ 
+                    <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-slate-800 text-slate-600 transition duration-300 group-hover:border-yellow-400/30 group-hover:bg-yellow-400 group-hover:text-slate-950">
+                      ←
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <!-- Card Number6-->
+   <a href="/education/circuits" class="group relative block">
+ <div class="relative overflow-hidden rounded-[1.75rem] border border-slate-800 bg-slate-900/30 transition-all duration-300 hover:-translate-x-1 hover:border-yellow-400/20 hover:bg-slate-900/60">
+ 
+ <div class="absolute bottom-0 right-0 top-0 w-0.5 bg-slate-800 transition duration-300 group-hover:bg-yellow-400"></div>
+ 
+   <div class="relative flex flex-col gap-6 p-6 sm:p-7 lg:flex-row lg:items-center">
+ 
+   <div class="flex items-center gap-4 lg:w-24 lg:shrink-0">
+    <span class="text-4xl font-black leading-none text-slate-800 transition duration-300 group-hover:text-yellow-400/30">
+     6
+    </span>
+ 
+  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-slate-800 bg-slate-950 text-2xl transition duration-300 group-hover:border-yellow-400/20 group-hover:bg-yellow-400/[0.05]">
+        🔌
+  </div>
+  </div>
+ 
+    <div class="min-w-0 flex-1">
+    <div class="flex flex-wrap items-center gap-3">
+   <h3 class="text-lg font-black text-white transition duration-300 group-hover:text-yellow-400 sm:text-xl">
+   مهندسی مخابرات
+   </h3>
+ 
+    <span class="rounded-full border border-slate-800 bg-slate-950 px-3 py-1 text-[10px] font-medium text-slate-500">
+       پیشرفته
+    </span>
+             
+</div>
+ 
+  <p class="mt-3 max-w-3xl text-sm leading-8 text-slate-500">
+    مبانی سیگنال‌ها، سیستم های مخابراتی، مدولاسیون و انتقال اطلاعات
+  </p>
+   <div class="mt-5 max-w-2xl">
+  <div class="mb-2 flex items-center justify-between text-[11px]">
+    <span class="text-slate-600">سختی مسیر</span>
+    <span class="font-bold text-yellow-400">55%</span>
+  </div>
+ 
+    <div class="h-1.5 overflow-hidden rounded-full bg-slate-800">
+    <div class="h-full rounded-full bg-yellow-400 transition-all duration-500" style="width: 55%"></div>
+      </div>
+ 
+   </div>
+</div>
+ 
+    <div class="flex items-center justify-between gap-6 border-t border-slate-800 pt-5 lg:w-48 lg:shrink-0 lg:border-r lg:border-t-0 lg:pr-6 lg:pt-0">
+    <div>
+      <span class="block text-[10px] text-slate-700">تعداد درس</span>
+      <strong class="mt-1 block text-sm font-bold text-slate-400">5 درس</strong>
+      </div>
+ 
+      <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-slate-800 text-slate-600 transition duration-300 group-hover:border-yellow-400/30 group-hover:bg-yellow-400 group-hover:text-slate-950">
+                      ←
+     </div>
+   </div>
+  </div>
+</div>
+</a>
+
+ 
+    </div>
+  </div>
+</section>
+ 
+ 
+      <!-- ========================================================= -->
+      <!-- بخش ۳: روش یادگیری -->
+      <!-- ========================================================= -->
+      <section class="border-y border-slate-800 bg-slate-900/20">
+        <div class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+          <div class="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
+ 
+            <!-- متن سمت راست -->
+            <div>
+              <span class="text-xs font-medium text-yellow-400">روش یادگیری</span>
+ 
+              <h2 class="mt-3 text-3xl font-black sm:text-4xl">
+                فقط حفظ نکن؛
+                <br />
+                <span class="text-slate-500">بفهم.</span>
+              </h2>
+ 
+              <p class="mt-5 max-w-lg text-sm leading-8 text-slate-500">
+                هدف این بخش این است که مفاهیم مهندسی برق را به شکلی مرحله‌ای و
+                قابل فهم یاد بگیرید؛ از مفهوم اولیه تا کاربرد واقعی.
+              </p>
+            </div>
+ 
+            <!-- سه کارت مرحله -->
+            <div class="grid gap-3 sm:grid-cols-3">
+ 
+              <div class="rounded-3xl border border-slate-800 bg-slate-950 p-6">
+                <div class="text-2xl">01</div>
+                <h3 class="mt-5 font-bold">یادگیری</h3>
+                <p class="mt-3 text-xs leading-7 text-slate-600">
+                  ابتدا مفهوم را به زبان ساده یاد بگیر.
+                </p>
+              </div>
+ 
+              <div class="rounded-3xl border border-slate-800 bg-slate-950 p-6">
+                <div class="text-2xl">02</div>
+                <h3 class="mt-5 font-bold">تمرین</h3>
+                <p class="mt-3 text-xs leading-7 text-slate-600">
+                  با مثال و مسئله، مفهوم را تثبیت کن.
+                </p>
+              </div>
+ 
+              <div class="rounded-3xl border border-slate-800 bg-slate-950 p-6">
+                <div class="text-2xl">03</div>
+                <h3 class="mt-5 font-bold">کاربرد</h3>
+                <p class="mt-3 text-xs leading-7 text-slate-600">
+                  دانش خود را در مسائل واقعی به کار ببر.
+                </p>
+              </div>
+ 
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+ 
+      <!-- ========================================================= -->
+      <!-- بخش ۴: دعوت به شروع (CTA) -->
+      <!-- ========================================================= -->
+      <section class="mx-auto max-w-7xl px-6 py-16 sm:py-24">
+        <div class="relative overflow-hidden rounded-[2rem] border border-yellow-400/10 bg-yellow-400/[0.025] p-8 sm:p-12">
+ 
+          <!-- نور تزئینی گوشه -->
+          <div class="pointer-events-none absolute -left-20 -top-20 h-60 w-60 rounded-full bg-yellow-400/[0.06] blur-[80px]"></div>
+ 
+          <div class="relative max-w-2xl">
+            <span class="text-3xl">⚡</span>
+ 
+            <h2 class="mt-5 text-2xl font-black sm:text-3xl">
+              آماده‌ای شروع کنی؟
+            </h2>
+ 
+            <p class="mt-4 text-sm leading-8 text-slate-500">
+              یک مسیر را انتخاب کن و یادگیری مهندسی برق را از همین امروز شروع کن.
+            </p>
+ 
+            <a href="/education/basics" class="mt-7 inline-flex rounded-xl bg-yellow-400 px-6 py-3 text-sm font-black text-slate-950 transition hover:bg-yellow-300">
+              شروع از پایه ←
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+    <footer class="bg-slate-950/15 text-white border-t-2 border-t-gray-800">
+      <!-- خط گرادیانتی بالای فوتر -->
+      <div class="h-px w-full bg-linear-to-l from-transparent via-yellow-400/50 to-transparent "></div>
+ 
+      <!-- بخش اصلی -->
+      <div class="mx-auto max-w-7xl px-6 py-14">
+        <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+ 
+          <!-- ستون ۱: برند -->
+          <div>
+            <a href="/" class="inline-flex items-center gap-3">
+              <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-linear-to-br from-yellow-400 to-amber-500 text-2xl shadow-lg">
+                ⚡
+              </span>
+  <div class="flex items-center gap-2">
+    <span class="text-lg font-black">برق‌یار</span>
+    <span class="h-5 w-px bg-slate-600"></span>
+    <span class="text-[15px] tracking-wide text-slate-400 pt-1">Barghyar</span>
+  </div>
+            </a>
+ 
+<p class="text-[15px] text-slate-400 pt-6">
+  <span class="text-yellow-400">⚡</span>
+  برق‌یار؛ از اولین مدارت تا ساختن آینده‌ای روشن‌تر
+</p>
+          </div>
+ 
+          <!-- ستون ۲: دسترسی سریع -->
+          <div>
+            <h3 class="text-sm font-bold text-white">دسترسی سریع</h3>
+            <span class="mt-2 block h-0.5 w-8 rounded-full bg-yellow-400"></span>
+ 
+            <nav class="mt-5 flex flex-col items-start gap-3">
+              <a href="/" class="group flex items-center gap-2 text-sm text-slate-400 transition hover:text-yellow-400">
+                <span class="h-1 w-1 rounded-full bg-slate-600 transition group-hover:bg-yellow-400"></span>
+                صفحه اصلی
+              </a>
+ 
+              <a href="/education" class="group flex items-center gap-2 text-sm text-slate-400 transition hover:text-yellow-400">
+                <span class="h-1 w-1 rounded-full bg-slate-600 transition group-hover:bg-yellow-400"></span>
+                مسیرهای آموزشی
+              </a>
+ 
+              <a href="/magazine" class="group flex items-center gap-2 text-sm text-slate-400 transition hover:text-yellow-400">
+                <span class="h-1 w-1 rounded-full bg-slate-600 transition group-hover:bg-yellow-400"></span>
+                مجله
+              </a>
+ 
+              <a href="/encyclopedia" class="group flex items-center gap-2 text-sm text-slate-400 transition hover:text-yellow-400">
+                <span class="h-1 w-1 rounded-full bg-slate-600 transition group-hover:bg-yellow-400"></span>
+                دانشنامه
+              </a>
+            </nav>
+          </div>
+ 
+          <!-- ستون ۳: کارگاه مهندسی -->
+          <div>
+            <h3 class="text-sm font-bold text-white">کارگاه مهندسی</h3>
+            <span class="mt-2 block h-0.5 w-8 rounded-full bg-yellow-400"></span>
+ 
+            <nav class="mt-5 flex flex-col items-start gap-3">
+              <a href="/tools" class="group flex items-center gap-2 text-sm text-slate-400 transition hover:text-yellow-400">
+                <span class="h-1 w-1 rounded-full bg-slate-600 transition group-hover:bg-yellow-400"></span>
+                ابزارهای مهندسی
+              </a>
+ 
+              <a href="/tools/ohms-law" class="group flex items-center gap-2 text-sm text-slate-400 transition hover:text-yellow-400">
+                <span class="h-1 w-1 rounded-full bg-slate-600 transition group-hover:bg-yellow-400"></span>
+                قانون اهم
+              </a>
+ 
+              <a href="/tools/power" class="group flex items-center gap-2 text-sm text-slate-400 transition hover:text-yellow-400">
+                <span class="h-1 w-1 rounded-full bg-slate-600 transition group-hover:bg-yellow-400"></span>
+                توان الکتریکی
+              </a>
+ 
+              <a href="/projects" class="group flex items-center gap-2 text-sm text-slate-400 transition hover:text-yellow-400">
+                <span class="h-1 w-1 rounded-full bg-slate-600 transition group-hover:bg-yellow-400"></span>
+                پروژه‌های آموزشی
+              </a>
+            </nav>
+          </div>
+ 
+          <!-- ستون ۴: حوزه‌های مهندسی -->
+          <div>
+            <h3 class="text-sm font-bold text-white">حوزه‌های مهندسی</h3>
+            <span class="mt-2 block h-0.5 w-8 rounded-full bg-yellow-400"></span>
+ 
+            <div class="mt-5 flex flex-wrap gap-2">
+              <span class="rounded-full border border-slate-800 bg-slate-900 px-3.5 py-1.5 text-xs text-slate-400 transition hover:border-yellow-400/40 hover:text-yellow-400">مبانی برق</span>
+              <span class="rounded-full border border-slate-800 bg-slate-900 px-3.5 py-1.5 text-xs text-slate-400 transition hover:border-yellow-400/40 hover:text-yellow-400">مدارها</span>
+              <span class="rounded-full border border-slate-800 bg-slate-900 px-3.5 py-1.5 text-xs text-slate-400 transition hover:border-yellow-400/40 hover:text-yellow-400">الکترونیک</span>
+              <span class="rounded-full border border-slate-800 bg-slate-900 px-3.5 py-1.5 text-xs text-slate-400 transition hover:border-yellow-400/40 hover:text-yellow-400">قدرت</span>
+              <span class="rounded-full border border-slate-800 bg-slate-900 px-3.5 py-1.5 text-xs text-slate-400 transition hover:border-yellow-400/40 hover:text-yellow-400">کنترل</span>
+              <span class="rounded-full border border-slate-800 bg-slate-900 px-3.5 py-1.5 text-xs text-slate-400 transition hover:border-yellow-400/40 hover:text-yellow-400">مخابرات</span>
+            </div>
+          </div>
+ 
+        </div>
+      </div>
+ 
+      <!-- نوار پایین -->
+      <div class="border-t border-slate-800 bg-slate-900/40">
+        <div class="mx-auto flex max-w-7xl flex-col items-center gap-3 px-6 py-5 text-center sm:flex-row sm:justify-center">
+          <p class="text-xs text-slate-500">
+            © 2026 AmirHossein Faraji — تمامی حقوق محفوظ است.
+          </p>
+ 
+
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>

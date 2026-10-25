@@ -1,0 +1,19 @@
+{
+  "name": "bargh-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":  "npx @tailwindcss/cli -i ./assets/css/import.css -o ./assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "live-server": "^1.2.2",
+    "tailwindcss": "^4.3.3"
+  }
+}

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/fonts/webfonts/Vazirmatn-Regular.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: Vazir-Bold;
+    src: url("../fonts/fonts/webfonts/Vazirmatn-Bold.woff2") format('woff2');
+}
+  body {
+    font-family: 'Vazir', sans-serif;
+  }

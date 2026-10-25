@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barghyar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
+<style>
+  body {
+    font-family: 'Vazirmatn', sans-serif;
+  }
+  a:focus-visible, input:focus-visible, button:focus-visible {
+    outline: 2px solid #facc15;
+    outline-offset: 2px;
+  }
+</style>
+</head>
+
+<body  class="overflow-x-hidden bg-[#0f172a] text-white antialiased">
+
+<!-- Header -->
+  <header class="Header group sticky top-0 z-50 border-b border-slate-800 bg-[#0f172a] backdrop-blur">
+    <div class="Header-content mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4">
+
+      <a href="index.html" class="flex items-center gap-2 text-lg font-bold sm:text-xl">
+        <span class="text-yellow-400">⚡</span>
+  <div class="flex items-center gap-2">
+    <span class="text-lg font-black">برق‌یار</span>
+    <span class="h-5 w-px bg-slate-600"></span>
+    <span class="text-[15px] tracking-wide text-slate-400 pt-1">Barghyar</span>
+  </div>
+      </a>
+<!-- Header Nav -->
+      <nav class="Header-Nav hidden items-center gap-7 text-sm text-slate-300 md:flex">
+        <a href="index.html" class="text-yellow-400">خانه</a>
+        <a href="#" class="transition hover:text-white">آموزش</a>
+        <a href="#" class="transition hover:text-white">دانشنامه</a>
+        <a href="#" class="transition hover:text-white">مقالات</a>
+        <a href="#" class="transition hover:text-white">ابزارها</a>
+        <a href="#" class="transition hover:text-white">پروژه‌ها</a>
+      </nav>
+<!-- Header botten -->
+      <div class="Header-Button flex items-center gap-2">
+        <a href="#" class="whitespace-nowrap rounded-lg bg-yellow-400 px-3 py-2 text-xs font-bold text-slate-950 transition hover:bg-yellow-300 sm:px-5 sm:text-sm">
+          ورود / ثبت‌نام
+        </a>
+
+<!-- Mobile menu button -->
+ <!-- Hamburger Menu -->
+        <input id="menu-toggle" type="checkbox" class="sr-only" aria-label="باز و بسته کردن منو" />
+        <label for="menu-toggle" class="inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-slate-700 text-slate-300 transition hover:text-white md:hidden">
+          <svg class="h-5 w-5 group-has-[:checked]:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="hidden h-5 w-5 group-has-[:checked]:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </label>
+      </div>
+
+    </div>
+
+<!-- Mobile menu (Nav) -->
+    <nav id="mobile-menu" class="hidden border-t border-slate-800 px-4 pb-4 pt-2 group-has-[:checked]:block md:hidden" aria-label="منوی موبایل">
+      <div class="mx-auto flex max-w-7xl flex-col gap-1 text-sm">
+      <a href="index.html" class="rounded-lg px-3 py-3 bg-yellow-400/10 text-yellow-400">خانه</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">آموزش</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">دانشنامه</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">مقالات</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">ابزارها</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">پروژه‌ها</a>
+      </div>
+    </nav>
+  </header>
+    
+<!-- Section1 -->
+<section class="section1 relative overflow-hidden border-b border-slate-800">
+  <div class="section1-background-circle-yellow pointer-events-none absolute -top-24 right-1/4 h-80 w-80 rounded-full bg-yellow-400/5 blur-[110px]"></div>
+ 
+  <div class="section1-Top-Part relative mx-auto max-w-6xl px-6 py-14 sm:py-20">
+    <p class="section1-Top-Part-p mb-4 flex items-center gap-2 text-sm text-yellow-400">
+      <span class="h-1.5 w-1.5 rounded-full bg-yellow-400"></span>
+       آموزش / مبانی برق
+    </p>
+ 
+    <h1 class="section1-Top-Part-h1 text-3xl font-extrabold leading-tight sm:text-5xl">
+       برق را از <span class="text-yellow-400">صفر</span> شروع کنیم
+    </h1>
+ 
+    <p class="section1-Top-Part-p mt-5 max-w-2xl leading-8 text-slate-400">
+     قبل از شروع درس‌های تخصصی، باید با چند مفهوم ساده آشنا شویم: ولتاژ، جریان، مقاومت و توان.
+     که این قسمت همه‌ی آن‌ها را کنار هم و با زبان ساده یاد میگیریم.
+    </p>
+ 
+<!-- Section1 Formula Part -->
+  <div class="sectuion1-Formula-Part mt-10 grid grid-cols-1 gap-3 sm:grid-cols-3">
+    <div class="rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+      <p class="text-xs text-slate-500">قانون اهم</p>
+      <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">V = I × R</p>
+    </div>
+    <div class="rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+      <p class="text-xs text-slate-500">توان الکتریکی</p>
+      <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">P = V × I</p>
+    </div>
+    <div class="rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+      <p class="text-xs text-slate-500">انرژی مصرفی</p>
+      <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">E = P × t</p>
+      </div>
+    </div>
+  </div>
+  </section>
+ 
+  <!-- Section2 Mafahim Asli -->
+  <section class="section2 mx-auto max-w-6xl px-6 py-14">
+    <h2 class="section2-h2 text-2xl font-bold">چهار مفهوم اصلی</h2>
+    <p class="section2-p mt-2 text-slate-400">هر کارت یک مفهوم را با یک مثال روزمره توضیح می‌دهد.</p>
+ 
+    <div class="section2-Four-boxs mt-8 grid gap-5 sm:grid-cols-2">
+ 
+      <!-- Voltage -->
+      <article class="section2-box1 group rounded-2xl border border-slate-800 border-r-4 border-r-yellow-400 bg-slate-900/50 p-6 transition hover:-translate-y-1 hover:bg-slate-900">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-bold">۱. ولتاژ</h3>
+          <span class="rounded-full bg-yellow-400/10 px-3 py-1 text-xs text-yellow-400" dir="ltr">V · ولت</span>
+        </div>
+        <p class="mt-3 leading-8 text-slate-400">
+          اختلاف پتانسیل بین دو نقطه؛ یعنی «فشاری» که الکترون‌ها را به حرکت درمی‌آورد.
+        </p>
+        <p class="mt-3 rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300">
+          💧 مثل فشار آب در لوله: هرچه فشار بیشتر، آب با قدرت بیشتری جاری می‌شود.
+        </p>
+      </article>
+ 
+      <!-- Jaryan -->
+      <article class="section2-box2 group rounded-2xl border border-slate-800 border-r-4 border-r-sky-400 bg-slate-900/50 p-6 transition hover:-translate-y-1 hover:bg-slate-900">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-bold">۲. جریان</h3>
+          <span class="rounded-full bg-sky-400/10 px-3 py-1 text-xs text-sky-400" dir="ltr">I · آمپر</span>
+        </div>
+        <p class="mt-3 leading-8 text-slate-400">
+          مقدار باری که در هر ثانیه از یک نقطه‌ی مدار عبور می‌کند.
+        </p>
+        <p class="mt-11 rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300 ">
+          🚰 مثل مقدار آبی که در هر ثانیه از لوله می‌گذرد.
+        </p>
+      </article>
+ 
+      <!-- Moghavemat -->
+      <article class="section2-box3 group rounded-2xl border border-slate-800 border-r-4 border-r-rose-400 bg-slate-900/50 p-6 transition hover:-translate-y-1 hover:bg-slate-900">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-bold">۳. مقاومت</h3>
+          <span class="rounded-full bg-rose-400/10 px-3 py-1 text-xs text-rose-400" dir="ltr">R · اهم (Ω)</span>
+        </div>
+        <p class="mt-3 leading-8 text-slate-400">
+          میزان مخالفت یک قطعه با عبور جریان. مقاومت بیشتر یعنی جریان کمتر.
+        </p>
+        <p class="mt-10 rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300">
+          🔧 مثل باریک شدن لوله: آب سخت‌تر عبور می‌کند.
+        </p>
+      </article>
+ 
+      <!-- Tavan -->
+      <article class="section2-box4 group rounded-2xl border border-slate-800 border-r-4 border-r-emerald-400 bg-slate-900/50 p-6 transition hover:-translate-y-1 hover:bg-slate-900">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-bold">۴. توان</h3>
+          <span class="rounded-full bg-emerald-400/10 px-3 py-1 text-xs text-emerald-400" dir="ltr">P · وات</span>
+        </div>
+        <p class="mt-3 leading-8 text-slate-400">
+          سرعت مصرف یا تولید انرژی. لامپ ۱۰۰ وات، هر ثانیه ۱۰۰ ژول انرژی مصرف می‌کند.
+        </p>
+        <p class="mt-3 rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300">
+          ⚡ هرچه توان بیشتر، قطعه انرژی بیشتری در هر ثانیه می‌گیرد (و گرم‌تر می‌شود).
+        </p>
+      </article>
+ 
+    </div>
+  </section>
+ 
+  <!-- Section3 -->
+  <section class="Section3 border-y border-slate-800 bg-slate-900/40">
+    <div class="Section3-part1 mx-auto grid max-w-6xl gap-8 px-6 py-14 lg:grid-cols-2">
+ 
+      <div>
+        <h2 class="text-2xl font-bold"> یک مثال ساده و مفهومی</h2>
+        <p class="mt-3 leading-8 text-slate-400">
+          یک باتری ۹ ولتی را به یک مقاومت ۳ اهمی وصل کرده‌ایم. جریان و توان چقدر است؟
+        </p>
+      </div>
+ 
+      <div class="space-y-3 ">
+        <li class="flex gap-4 rounded-xl border justify-center border-slate-800 bg-slate-800/60 p-4">
+          <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-yellow-400 text-sm font-bold text-slate-950 pt-1">1</span>
+          <div>
+            <p class="text-sm text-slate-400">جریان با قانون اهم</p>
+            <p class="font-semibold" dir="ltr">I = V / R = 9 / 3 = 3 A</p>
+          </div>
+        </li>
+        <li class="flex gap-4 rounded-xl border justify-center border-slate-800 bg-slate-800/60 p-4 ">
+          <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-yellow-400 text-sm font-bold text-slate-950 pt-1">2</span>
+          <div>
+            <p class="text-sm text-slate-400">توان مصرفی</p>
+            <p class="font-semibold" dir="ltr">P = V × I = 9 × 3 = 27 W</p>
+          </div>
+        </li>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- Section4-->
+  <section class="Section4 mx-auto max-w-6xl px-6 py-14">
+    <h2 class="Section4-h2-question text-2xl font-bold">مدار الکتریکی یعنی چه؟</h2>
+    <p class="Section4-p-text mt-4 max-w-3xl leading-8 text-slate-400">
+      مدار الکتریکی یک مسیر بسته است که جریان می‌تواند در آن حرکت کند. اگر این مسیر
+      در جایی قطع شود (مثلاً با خاموش کردن کلید)، جریان صفر می‌شود و وسیله کار نمی‌کند.
+      هر مدار ساده‌ای حداقل از سه بخش تشکیل شده است:
+    </p>
+ 
+    <div class="Section4-boxs mt-8 grid gap-5 md:grid-cols-3">
+      <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-yellow-400/10 text-2xl">🔋</div>
+
+        <h3 class="Section4-h3 mt-4 text-lg font-bold">منبع</h3>
+        <p class="Section4-p mt-2 leading-8 text-slate-400 pt-6">
+          انرژی مدار را تأمین می‌کند و ولتاژ می‌دهد. مثل باتری، آداپتور یا پریز برق خانه.
+        </p>
+      </div>
+ 
+      <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-sky-400/10 text-2xl">💡</div>
+        <h3 class="Section4-h3 mt-4 text-lg font-bold">بار</h3>
+        <p class="Section4-p mt-2 leading-8 text-slate-400 pt-2">
+          قطعه‌ای که انرژی را مصرف می‌کند و کار انجام می‌دهد. مثل لامپ، موتور، بلندگو یا یک مقاومت ساده.
+        </p>
+      </div>
+ 
+      <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-400/10 text-2xl">🔌</div>
+        <h3 class="Section4-h3 mt-4 text-lg font-bold">سیم‌های رابط</h3>
+        <p class="Section4-p mt-2 leading-8 text-slate-400 pt-2">
+          منبع و بار را به هم وصل می‌کنند تا مسیر بسته شود. معمولاً از مس ساخته می‌شوند چون مقاومت کمی دارند.
+        </p>
+      </div>
+    </div>
+ 
+    <!-- Madar Baz & Baste-->
+    <div class="Section4-teo-boxs mt-10 grid gap-5 md:grid-cols-2">
+      <div class="rounded-2xl border border-emerald-400/20 bg-emerald-400/5 p-6">
+        <h3 class="Section4-h3 text-lg font-bold text-emerald-400">مدار بسته</h3>
+        <p class="Section4-p mt-2 leading-8 text-slate-400 pt-2">
+          مسیر کامل است و جریان برقرار می‌شود. وقتی کلید را روشن می‌کنی، مدار بسته می‌شود و لامپ روشن می‌شود.
+        </p>
+      </div>
+ 
+      <div class="rounded-2xl border border-rose-400/20 bg-rose-400/5 p-6">
+        <h3 class="Section4-h3 text-lg font-bold text-rose-400">مدار باز</h3>
+        <p class="Section4-p mt-2 leading-8 text-slate-400 pt-2">
+          مسیر جایی قطع است و جریانی عبور نمی‌کند. سیم شل‌شده یا کلید خاموش، مدار را باز می‌کند.
+        </p>
+      </div>
+    </div>
+ 
+    <!-- Importent ! -->
+    <div class="section4-Importent mt-10 rounded-2xl border border-yellow-400/20 bg-yellow-400/5 p-6">
+      <h3 class="section4-Importent-h3 flex items-center gap-2 text-lg font-bold text-yellow-400">⚠️ نکته‌ی ایمنی</h3>
+      <p class="section4-Importent-p mt-3 leading-8 text-slate-300">
+        با باتری و ولتاژهای پایین می‌شود با خیال راحت تمرین کرد، اما برق شهری (۲۲۰ ولت) خطرناک است
+        و می‌تواند کشنده باشد. هیچ‌وقت بدون آموزش و بدون قطع کردن برق سراغ سیم‌کشی خانه نرو.
+      </p>
+    </div>
+  </section>
+ 
+  <!-- section5 -->
+  <section class="Section5 mx-auto max-w-3xl px-6 pb-14">
+    <h2 class="Section5-h2 text-2xl font-bold">سؤال‌های رایج</h2>
+ 
+    <div class="mt-6 space-y-3">
+      <details class="Section5-box-question group rounded-xl border border-slate-800 bg-slate-900/50 p-5 open:bg-slate-900">
+        <summary class="Section5-question flex cursor-pointer list-none items-center justify-between font-semibold">
+          جریان AC با DC چه فرقی دارد؟
+          <span class="text-yellow-400 transition group-open:rotate-45">+</span>
+        </summary>
+        <p class="Section5-answer mt-3 leading-8 text-slate-400">
+          در DC (مثل باتری) جهت جریان ثابت است. در AC (مثل برق شهری) جهت جریان مدام عوض می‌شود؛ در ایران ۵۰ بار در ثانیه.
+        </p>
+      </details>
+ 
+      <details class="group rounded-xl border border-slate-800 bg-slate-900/50 p-5 open:bg-slate-900">
+        <summary class="Section5-question flex cursor-pointer list-none items-center justify-between font-semibold">
+          چرا سیم‌ها داغ می‌شوند؟
+          <span class="text-yellow-400 transition group-open:rotate-45">+</span>
+        </summary>
+        <p class="Section5-answer mt-3 leading-8 text-slate-400">
+          هر سیمی کمی مقاومت دارد و بخشی از انرژی جریان در آن به گرما تبدیل می‌شود. هرچه جریان بیشتر باشد، گرما هم بیشتر است.
+        </p>
+      </details>
+ 
+      <details class="group rounded-xl border border-slate-800 bg-slate-900/50 p-5 open:bg-slate-900">
+        <summary class="Section5-question flex cursor-pointer list-none items-center justify-between font-semibold">
+          بعد از مبانی برق سراغ چه چیزی بروم؟
+          <span class="text-yellow-400 transition group-open:rotate-45">+</span>
+        </summary>
+        <p class="Section5-answer mt-3 leading-8 text-slate-400">
+          مدارهای سری و موازی، تقسیم‌کننده‌ی ولتاژ و بعد الکترونیک (دیود و ترانزیستور).
+        </p>
+      </details>
+    </div>
+  </section>
+ 
+ 
+  <section class="mx-auto max-w-6xl px-6 pb-20">
+    <div class="flex flex-col items-center justify-between gap-5 rounded-2xl border border-yellow-400/20 bg-gradient-to-l from-yellow-400/10 to-transparent p-8 text-center sm:flex-row sm:text-right">
+      <div>
+        <h3 class="text-xl font-bold">آماده‌ای مدارها را شروع کنی؟</h3>
+        <p class="mt-1 text-slate-400">درس بعدی: مدارهای سری و موازی</p>
+      </div>
+      <a href="#" class="rounded-lg bg-yellow-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-yellow-300">
+        شروع درس بعد
+      </a>
+    </div>
+  </section>
+
+
+
+</body>
+</html>
