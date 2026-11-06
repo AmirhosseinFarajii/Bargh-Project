@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barghyar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
+<style>
+  body {
+    font-family: 'Vazirmatn', sans-serif;
+  }
+  a:focus-visible, input:focus-visible, button:focus-visible {
+    outline: 2px solid #facc15;
+    outline-offset: 2px;
+  }
+</style>
+</head>
+
+<body class="overflow-x-hidden bg-[#0f172a] text-white antialiased">
+
+<!-- Header -->
+  <header class="Header group sticky top-0 z-50 border-b border-slate-800 bg-[#0f172a] backdrop-blur">
+    <div class="Header-content mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4">
+
+      <a href="index.html" class="flex items-center gap-2 text-lg font-bold sm:text-xl">
+        <span class="text-yellow-400">⚡</span>
+        <div class="flex items-center gap-2">
+          <span class="text-lg font-black">برق‌یار</span>
+          <span class="h-5 w-px bg-slate-600"></span>
+          <span class="text-[15px] tracking-wide text-slate-400 pt-1">Barghyar</span>
+        </div>
+      </a>
+
+      <nav class="Header-Nav hidden items-center gap-7 text-sm text-slate-300 md:flex">
+        <a href="index.html" class="transition hover:text-white">خانه</a>
+        <a href="Teach.html" class="text-yellow-400">آموزش</a>
+        <a href="#" class="transition hover:text-white">دانشنامه</a>
+        <a href="#" class="transition hover:text-white">مقالات</a>
+        <a href="#" class="transition hover:text-white">ابزارها</a>
+        <a href="#" class="transition hover:text-white">پروژه‌ها</a>
+      </nav>
+
+      <div class="Header-Button flex items-center gap-2">
+        <a href="#" class="whitespace-nowrap rounded-lg bg-yellow-400 px-3 py-2 text-xs font-bold text-slate-950 transition hover:bg-yellow-300 sm:px-5 sm:text-sm">
+          ورود / ثبت‌نام
+        </a>
+
+        <input id="menu-toggle" type="checkbox" class="sr-only" aria-label="باز و بسته کردن منو" />
+        <label for="menu-toggle" class="inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-slate-700 text-slate-300 transition hover:text-white md:hidden">
+          <svg class="h-5 w-5 group-has-[:checked]:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="hidden h-5 w-5 group-has-[:checked]:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </label>
+      </div>
+    </div>
+
+    <nav id="mobile-menu" class="hidden border-t border-slate-800 px-4 pb-4 pt-2 group-has-[:checked]:block md:hidden" aria-label="منوی موبایل">
+      <div class="mx-auto flex max-w-7xl flex-col gap-1 text-sm">
+        <a href="index.html" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">خانه</a>
+        <a href="Teach.html" class="rounded-lg px-3 py-3 bg-yellow-400/10 text-yellow-400">آموزش</a>
+        <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">دانشنامه</a>
+        <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">مقالات</a>
+        <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">ابزارها</a>
+        <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">پروژه‌ها</a>
+      </div>
+    </nav>
+  </header>
+
+<!-- Section1 -->
+  <section class="section1 relative overflow-hidden border-b border-slate-800">
+    <div class="section1-Back-circle-yellow pointer-events-none absolute -top-24 right-1/4 h-80 w-80 rounded-full bg-yellow-300/15 blur-[110px]"></div>
+    <div class="relative mx-auto max-w-6xl px-6 py-14 sm:py-20">
+      <p class="mb-4 flex items-center gap-2 text-sm text-yellow-400">
+        <span class="h-1.5 w-1.5 rounded-full bg-yellow-400"></span>
+        آموزش / سیستم‌های کنترل
+      </p>
+
+      <h1 class="text-3xl font-extrabold leading-tight sm:text-5xl">
+        کنترل را از <span class="text-yellow-400">صفر</span> شروع کنیم
+      </h1>
+
+      <p class="mt-5 max-w-2xl leading-8 text-slate-400">
+        آبگرمکن چطور دمای آب را ثابت نگه می‌دارد؟ پهپاد چطور در هوا تعادلش را حفظ می‌کند؟
+        در این بخش با ایده‌ی اصلی علم کنترل یعنی «اندازه بگیر، مقایسه کن، اصلاح کن» آشنا می‌شویم.
+      </p>
+
+      <div class="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-3">
+        <div class="rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+          <p class="text-xs text-slate-500">خطا</p>
+          <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">e = r − y</p>
+        </div>
+        <div class="rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+          <p class="text-xs text-slate-500">تابع تبدیل</p>
+          <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">G(s) = Y(s) / U(s)</p>
+        </div>
+        <div class="rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+          <p class="text-xs text-slate-500">حلقه بسته</p>
+          <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">T = G / (1 + GH)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Section2 -->
+  <section class="section2 mx-auto max-w-6xl px-6 py-14">
+    <h2 class="text-2xl font-bold">چهار مفهوم اصلی</h2>
+    <p class="mt-2 text-slate-400">هر کارت یک مفهوم را با یک مثال روزمره توضیح می‌دهد.</p>
+
+    <div class="mt-8 grid gap-5 sm:grid-cols-2">
+
+      <article class="rounded-2xl border border-slate-800 border-r-4 border-r-yellow-400 bg-slate-900/50 p-6 transition hover:-translate-y-1 hover:bg-slate-900">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-bold">۱. ورودی مرجع</h3>
+          <span class="rounded-full bg-yellow-400/10 px-3 py-1 text-xs text-yellow-400" dir="ltr">r · مقدار مطلوب</span>
+        </div>
+        <p class="mt-3 leading-8 text-slate-400">
+          مقداری که از سیستم می‌خواهیم؛ یعنی هدفی که کنترلر باید خروجی را به آن برساند.
+        </p>
+        <p class="mt-3 rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300">
+          🌡️ مثل عددی که روی کولر تنظیم می‌کنی: ۲۴ درجه.
+        </p>
+      </article>
+
+      <article class="rounded-2xl border border-slate-800 border-r-4 border-r-sky-400 bg-slate-900/50 p-6 transition hover:-translate-y-1 hover:bg-slate-900">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-bold">۲. خروجی</h3>
+          <span class="rounded-full bg-sky-400/10 px-3 py-1 text-xs text-sky-400" dir="ltr">y · مقدار واقعی</span>
+        </div>
+        <p class="mt-3 leading-8 text-slate-400">
+          چیزی که سیستم واقعاً تولید می‌کند و سنسور آن را اندازه می‌گیرد.
+        </p>
+        <p class="mt-3 rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300">
+          🏠 مثل دمای واقعی اتاق که ممکن است الان ۲۸ درجه باشد.
+        </p>
+      </article>
+
+      <article class="rounded-2xl border border-slate-800 border-r-4 border-r-rose-400 bg-slate-900/50 p-6 transition hover:-translate-y-1 hover:bg-slate-900">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-bold">۳. خطا</h3>
+          <span class="rounded-full bg-rose-400/10 px-3 py-1 text-xs text-rose-400" dir="ltr">e · اختلاف</span>
+        </div>
+        <p class="mt-3 leading-8 text-slate-400">
+          اختلاف مقدار مطلوب با مقدار واقعی. کنترلر دائم تلاش می‌کند این عدد را صفر کند.
+        </p>
+        <p class="mt-3 rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300">
+          📏 مثل فاصله‌ی شما تا مقصد؛ هرچه نزدیک‌تر شوی کمتر می‌شود.
+        </p>
+      </article>
+
+      <article class="rounded-2xl border border-slate-800 border-r-4 border-r-emerald-400 bg-slate-900/50 p-6 transition hover:-translate-y-1 hover:bg-slate-900">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-bold">۴. فیدبک</h3>
+          <span class="rounded-full bg-emerald-400/10 px-3 py-1 text-xs text-emerald-400" dir="ltr">Feedback · بازخورد</span>
+        </div>
+        <p class="mt-3 leading-8 text-slate-400">
+          برگرداندن اطلاعات خروجی به ورودی تا سیستم از نتیجه‌ی کارش باخبر شود.
+        </p>
+        <p class="mt-3 rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300">
+          🚗 مثل راننده‌ای که مدام به کیلومترشمار نگاه می‌کند و پدال گاز را تنظیم می‌کند.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+<!-- Section3 -->
+  <section class="border-y border-slate-800 bg-slate-900/40">
+    <div class="mx-auto grid max-w-6xl gap-8 px-6 py-14 lg:grid-cols-2">
+
+      <div>
+        <h2 class="text-2xl font-bold">یک مثال ساده و مفهومی</h2>
+        <p class="mt-3 leading-8 text-slate-400">
+          می‌خواهیم دمای آب یک مخزن ۶۰ درجه شود، ولی الان ۴۵ درجه است. کنترلر تناسبی ما ضریب ۲ دارد. خطا و فرمان کنترلر چقدر است؟
+        </p>
+      </div>
+
+      <div class="space-y-3">
+        <div class="flex gap-4 rounded-xl border justify-center border-slate-800 bg-slate-800/60 p-4">
+          <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-yellow-400 text-sm font-bold text-slate-950 pt-1">1</span>
+          <div>
+            <p class="text-sm text-slate-400">محاسبه‌ی خطا</p>
+            <p class="font-semibold" dir="ltr">e = r − y = 60 − 45 = 15 °C</p>
+          </div>
+        </div>
+        <div class="flex gap-4 rounded-xl border justify-center border-slate-800 bg-slate-800/60 p-4">
+          <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-yellow-400 text-sm font-bold text-slate-950 pt-1">2</span>
+          <div>
+            <p class="text-sm text-slate-400">فرمان کنترلر تناسبی</p>
+            <p class="font-semibold" dir="ltr">u = Kp × e = 2 × 15 = 30</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Section4 -->
+  <section class="Section4 mx-auto max-w-6xl px-6 py-14">
+    <h2 class="text-2xl font-bold">اجزای یک سیستم کنترل</h2>
+    <p class="mt-4 max-w-3xl leading-8 text-slate-400">
+      هر سیستم کنترل فیدبکی از چهار بخش اصلی ساخته می‌شود که با هم یک حلقه را تشکیل می‌دهند:
+    </p>
+
+    <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-yellow-400/10 text-2xl">🎯</div>
+        <h3 class="mt-4 text-lg font-bold">کنترلر</h3>
+        <p class="mt-2 leading-8 text-slate-400">خطا را می‌گیرد و تصمیم می‌گیرد چه فرمانی بدهد. مثل مغز سیستم.</p>
+      </div>
+      <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-sky-400/10 text-2xl">🦾</div>
+        <h3 class="mt-4 text-lg font-bold">عملگر</h3>
+        <p class="mt-2 leading-8 text-slate-400">فرمان را اجرا می‌کند؛ مثل موتور، شیر برقی یا المنت گرمایی.</p>
+      </div>
+      <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-rose-400/10 text-2xl">⚙️</div>
+        <h3 class="mt-4 text-lg font-bold">فرایند</h3>
+        <p class="mt-2 leading-8 text-slate-400">چیزی که کنترل می‌شود؛ مثل اتاق، مخزن آب یا یک موتور.</p>
+      </div>
+      <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-400/10 text-2xl">📡</div>
+        <h3 class="mt-4 text-lg font-bold">سنسور</h3>
+        <p class="mt-2 leading-8 text-slate-400">خروجی را اندازه می‌گیرد و به ورودی برمی‌گرداند.</p>
+      </div>
+    </div>
+
+    <!-- حلقه باز و بسته -->
+    <div class="mt-10 grid gap-5 md:grid-cols-2">
+      <div class="rounded-2xl border border-rose-400/20 bg-rose-400/5 p-6">
+        <h3 class="text-lg font-bold text-rose-400">حلقه باز</h3>
+        <p class="mt-2 leading-8 text-slate-400">
+          خروجی اندازه‌گیری نمی‌شود و کنترلر از نتیجه خبر ندارد. ساده و ارزان است ولی در برابر اغتشاش بی‌دفاع است. مثل ماشین لباسشویی که فقط با تایمر کار می‌کند.
+        </p>
+        <p class="mt-3 text-center text-sm text-slate-300" dir="ltr">ورودی → کنترلر → فرایند → خروجی</p>
+      </div>
+
+      <div class="rounded-2xl border border-emerald-400/20 bg-emerald-400/5 p-6">
+        <h3 class="text-lg font-bold text-emerald-400">حلقه بسته</h3>
+        <p class="mt-2 leading-8 text-slate-400">
+          خروجی اندازه‌گیری و با ورودی مقایسه می‌شود. دقیق‌تر است و اغتشاش را جبران می‌کند، اما اگر بد طراحی شود ممکن است ناپایدار شود. مثل ترموستات.
+        </p>
+        <p class="mt-3 text-center text-sm text-slate-300" dir="ltr">ورودی → Σ → کنترلر → فرایند → خروجی ↺ سنسور</p>
+      </div>
+    </div>
+
+    <!-- پایداری -->
+    <div class="mt-10 rounded-2xl border border-yellow-400/20 bg-yellow-400/5 p-6">
+      <h3 class="flex items-center gap-2 text-lg font-bold text-yellow-400">⚠️ نکته‌ی پایداری</h3>
+      <p class="mt-3 leading-8 text-slate-300">
+        فیدبک همیشه خوب نیست! اگر کنترلر بیش از حد تند واکنش نشان دهد، خروجی دائم از مقدار مطلوب رد می‌شود و نوسان می‌کند.
+        سیستمی پایدار است که همه‌ی قطب‌های تابع تبدیلش (ریشه‌های مخرج) در نیم‌صفحه‌ی چپ باشند.
+        اگر حتی یک قطب در نیم‌صفحه‌ی راست باشد، سیستم ناپایدار است.
+      </p>
+    </div>
+  </section>
+
+<!-- PID -->
+  <section class="border-y border-slate-800 bg-slate-900/40">
+    <div class="mx-auto max-w-6xl px-6 py-14">
+      <h2 class="text-2xl font-bold">کنترلر PID</h2>
+      <p class="mt-3 max-w-3xl leading-8 text-slate-400">
+        پرکاربردترین کنترلر صنعتی، سه رفتار ساده را با هم ترکیب می‌کند:
+      </p>
+
+      <div class="mt-8 grid gap-5 md:grid-cols-3">
+        <article class="rounded-2xl border border-slate-800 border-r-4 border-r-sky-400 bg-slate-900/50 p-6">
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-bold">تناسبی</h3>
+            <span class="rounded-full bg-sky-400/10 px-3 py-1 text-xs text-sky-400" dir="ltr">P · Kp</span>
+          </div>
+          <p class="mt-3 leading-8 text-slate-400">فرمان را متناسب با خطای فعلی می‌دهد. سریع است ولی کمی خطای ماندگار می‌گذارد.</p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-800 border-r-4 border-r-emerald-400 bg-slate-900/50 p-6">
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-bold">انتگرالی</h3>
+            <span class="rounded-full bg-emerald-400/10 px-3 py-1 text-xs text-emerald-400" dir="ltr">I · Ki</span>
+          </div>
+          <p class="mt-3 leading-8 text-slate-400">خطاهای گذشته را جمع می‌کند و خطای ماندگار را صفر می‌کند.</p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-800 border-r-4 border-r-yellow-400 bg-slate-900/50 p-6">
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-bold">مشتقی</h3>
+            <span class="rounded-full bg-yellow-400/10 px-3 py-1 text-xs text-yellow-400" dir="ltr">D · Kd</span>
+          </div>
+          <p class="mt-3 leading-8 text-slate-400">سرعت تغییر خطا را می‌بیند و جلوی نوسان و بالازدگی را می‌گیرد.</p>
+        </article>
+      </div>
+
+      <div class="mt-6 rounded-xl border border-slate-800 bg-slate-800/60 px-5 py-4 text-center">
+        <p class="text-xs text-slate-500">معادله‌ی کنترلر PID</p>
+        <p class="mt-1 text-xl font-bold text-yellow-400" dir="ltr">u(t) = Kp·e(t) + Ki·∫e(t)dt + Kd·de(t)/dt</p>
+      </div>
+    </div>
+  </section>
+
+<!-- FAQ -->
+  <section class="mx-auto max-w-3xl px-6 py-14">
+    <h2 class="text-2xl font-bold">سؤال‌های رایج</h2>
+
+    <div class="mt-6 space-y-3">
+      <details class="group rounded-xl border border-slate-800 bg-slate-900/50 p-5 open:bg-slate-900">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">
+          فرق حلقه باز و حلقه بسته چیست؟
+          <span class="text-yellow-400 transition group-open:rotate-45">+</span>
+        </summary>
+        <p class="mt-3 leading-8 text-slate-400">
+          در حلقه بسته خروجی اندازه‌گیری و به ورودی برگردانده می‌شود (فیدبک)، ولی در حلقه باز کنترلر از نتیجه خبر ندارد.
+        </p>
+      </details>
+
+      <details class="group rounded-xl border border-slate-800 bg-slate-900/50 p-5 open:bg-slate-900">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">
+          کدام بخش PID خطای ماندگار را صفر می‌کند؟
+          <span class="text-yellow-400 transition group-open:rotate-45">+</span>
+        </summary>
+        <p class="mt-3 leading-8 text-slate-400">
+          بخش انتگرالی (I)، چون خطای جمع‌شده را تا صفر شدن خطا بالا می‌برد.
+        </p>
+      </details>
+
+      <details class="group rounded-xl border border-slate-800 bg-slate-900/50 p-5 open:bg-slate-900">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">
+          برای فهم کنترل چه درس‌هایی لازم است؟
+          <span class="text-yellow-400 transition group-open:rotate-45">+</span>
+        </summary>
+        <p class="mt-3 leading-8 text-slate-400">
+          مدارهای الکتریکی، معادلات دیفرانسیل و تبدیل لاپلاس پایه‌های اصلی هستند.
+        </p>
+      </details>
+    </div>
+  </section>
+
+<!-- CTA -->
+<section class="mx-auto max-w-6xl px-6 pb-20">
+  <div class="flex flex-col items-center rounded-2xl border border-yellow-400/20 bg-linear-to-l from-yellow-400/10 to-transparent p-8 text-center sm:flex-row sm:text-right">
+    
+    <div>
+      <h3 class="text-xl font-bold">آماده‌ای مدارها را شروع کنی؟</h3>
+      <p class="mt-1 text-slate-400">درس بعدی: مدارهای الکتریکی</p>
+    </div>
+
+    <!-- گروه دکمه‌ها: می‌چسبه به سمت چپ -->
+    <div class="mt-6 flex flex-col items-center gap-3 sm:mt-0 sm:mr-auto sm:flex-row">
+      <a href="./Mokhaberat.html" class="rounded-lg bg-yellow-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-yellow-300">
+        شروع درس بعد
+      </a>
+      <a href="./Power-engineering.html" class="rounded-lg border border-slate-700 px-6 py-3 font-semibold text-slate-300 transition hover:text-white">
+        مرور درس قبلی
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>

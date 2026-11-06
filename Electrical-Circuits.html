@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barghyar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
+<style>
+  body {
+    font-family: 'Vazirmatn', sans-serif;
+  }
+  a:focus-visible, input:focus-visible, button:focus-visible {
+    outline: 2px solid #facc15;
+    outline-offset: 2px;
+  }
+</style>
+</head>
+<body class="overflow-x-hidden bg-[#0f172a] text-white antialiased">
+
+<!-- Header -->
+  <header class="Header group sticky top-0 z-50 border-b border-slate-800 bg-[#0f172a] backdrop-blur">
+    <div class="Header-content mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4">
+
+      <a href="index.html" class="flex items-center gap-2 text-lg font-bold sm:text-xl">
+        <span class="text-yellow-400">⚡</span>
+  <div class="flex items-center gap-2">
+    <span class="text-lg font-black">برق‌یار</span>
+    <span class="h-5 w-px bg-slate-600"></span>
+    <span class="text-[15px] tracking-wide text-slate-400 pt-1">Barghyar</span>
+  </div>
+      </a>
+<!-- Header Nav -->
+      <nav class="Header-Nav hidden items-center gap-7 text-sm text-slate-300 md:flex">
+        <a href="index.html" class="transition hover:text-white">خانه</a>
+        <a href="Teach.html" class="text-yellow-400">آموزش</a>
+        <a href="#" class="transition hover:text-white">دانشنامه</a>
+        <a href="#" class="transition hover:text-white">مقالات</a>
+        <a href="#" class="transition hover:text-white">ابزارها</a>
+        <a href="#" class="transition hover:text-white">پروژه‌ها</a>
+      </nav>
+<!-- Header botten -->
+      <div class="Header-Button flex items-center gap-2">
+        <a href="#" class="whitespace-nowrap rounded-lg bg-yellow-400 px-3 py-2 text-xs font-bold text-slate-950 transition hover:bg-yellow-300 sm:px-5 sm:text-sm">
+          ورود / ثبت‌نام
+        </a>
+
+<!-- Hamburger Menu -->
+        <input id="menu-toggle" type="checkbox" class="sr-only" aria-label="باز و بسته کردن منو" />
+        <label for="menu-toggle" class="inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-slate-700 text-slate-300 transition hover:text-white md:hidden">
+          <svg class="h-5 w-5 group-has-checked:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="hidden h-5 w-5 group-has-checked:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </label>
+      </div>
+
+    </div>
+
+<!-- Mobile menu (Nav) -->
+    <nav id="mobile-menu" class="hidden border-t border-slate-800 px-4 pb-4 pt-2 group-has-checked:block md:hidden" aria-label="منوی موبایل">
+      <div class="mx-auto flex max-w-7xl flex-col gap-1 text-sm">
+      <a href="index.html" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">خانه</a>
+      <a href="Teach.html" class="rounded-lg px-3 py-3 bg-yellow-400/10 text-yellow-400">آموزش</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">دانشنامه</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">مقالات</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">ابزارها</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">پروژه‌ها</a>
+      </div>
+    </nav>
+  </header>
+
+<!-- Section1 -->
+<section class="section1 relative overflow-hidden border-b border-slate-800 ">
+  <div class="section1-Back-circle-yellow pointer-events-none absolute -top-24 right-1/4 h-80 w-80 rounded-full bg-yellow-300/15 blur-[110px]"></div>
+
+  <div class="section1-top-banner-part1 relative mx-auto max-w-6xl px-6 py-14 sm:py-20">
+    <p class="section1-top-banner-part1-p-title mb-4 flex items-center gap-2 text-sm text-yellow-400">
+      <span class="h-1.5 w-1.5 rounded-full bg-yellow-400"></span>
+      <a href="Teach.html" class="hover:underline">آموزش</a> / مدارهای الکتریکی
+    </p>
+
+    <h1 class="section1-top-banner-part1-h1 text-3xl font-extrabold leading-tight sm:text-5xl">
+      مدارهای الکتریکی را قدم‌به‌قدم <span class="text-yellow-400">حل</span> کنیم
+    </h1>
+
+    <p class="section1-top-banner-part1-p mt-5 max-w-2xl leading-8 text-slate-400">
+      در این مسیر یاد می‌گیریم چطور چند مقاومت را ساده کنیم و با دو قانون 
+      ولتاژ و جریان هر نقطه از مدار را به‌دست بیاوریم؛ درآخر هم با دو روش گره و مش مدارهای بزرگ‌تر را حل می‌کنیم.
+    </p>
+
+    <div class="section1-top-banner-part2 mt-6 flex flex-wrap gap-3 text-xs">
+      <span class="rounded-full border border-slate-800 bg-slate-900/60 px-3 py-1 text-slate-400">سطح: متوسط</span>
+      <span class="rounded-full border border-slate-800 bg-slate-900/60 px-3 py-1 text-slate-400">۵ درس</span>
+      <a href="./MabaniBargh.html" class="rounded-full border border-yellow-400/20 bg-yellow-400/5 px-3 py-1 text-yellow-400 transition hover:bg-yellow-400/10">پیش‌نیاز: مبانی برق ←</a>
+    </div>
+
+    <div class="section1-top-banner-part3 mt-10 grid grid-cols-1 gap-3 sm:grid-cols-3">
+      <div class="section1-top-banner-part3-div1 rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+        <p class="text-xs text-slate-300">قانون ولتاژ کیرشهف (KVL)</p>
+        <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">ΣV = 0</p>
+        <p class="text-[15px] text-center text-slate-500 pt-11">مجموع جبری ولتاژها در یک حلقه‌ی بسته (مسیر بسته‌ی مدار) برابر صفر می‌باشد.</p>
+      </div>
+      <div class="section1-top-banner-part3-div2 rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+        <p class="text-xs text-slate-300">قانون جریان کیرشهف (KCL)</p>
+        <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">ΣI<sub class="text-sm">in</sub> = ΣI<sub class="text-sm">out</sub></p>
+        <p class="text-[15px] text-center text-slate-500 pt-7">مجموع جریان‌هایی که وارد یک گره (نقطه اتصال چند سیم) می‌شوند،  برابر است با مجموع جریان‌هایی که از همان گره خارج میشوند.</p>
+      </div>
+      <div class="section1-top-banner-part3-div3 rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+        <p class="text-xs text-slate-300">مقاومت معادل سری</p>
+        <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">R<sub class="text-sm">eq</sub> = R<sub class="text-sm">1</sub> + R<sub class="text-sm">2</sub> + …</p>
+        <P class="text-[15px] text-center text-slate-500 pt-4">وقتی چند مقاومت پشت سر هم (در یک مسیر، بدون انشعاب) قرار می‌گیرند، می‌توانیم همه‌ی آن‌هارا با یک مقاومت جایگزین کنیم که اثرش داخل مدار دقیقاً همان است.</P>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section2 : Lessons list -->
+<section class="section2 mx-auto max-w-6xl px-6 py-14">
+  <h2 class="section2-h2 text-2xl font-bold">مسیر پنج درس اصلی</h2>
+  <p class="section2-p mt-2 text-slate-400">روی درس مورد نظر بزنید تا مستقیم به همان بخش بروید.</p>
+
+  <div class="section2-boxs mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+    <a href="#lesson1" class="section2-box1 rounded-2xl border border-slate-800 border-t-4 border-t-yellow-400 bg-slate-900/50 p-5 transition hover:-translate-y-1 hover:bg-slate-900">
+      <span class="text-3xl font-black text-slate-600">۱</span>
+      <h3 class="mt-2 font-bold">سری و موازی</h3>
+      <p class="mt-1 text-xs leading-6 text-slate-500">ساده کردن چند مقاومت</p>
+    </a>
+    <a href="#lesson2" class="section2-box2 rounded-2xl border border-slate-800 border-t-4 border-t-sky-400 bg-slate-900/50 p-5 transition hover:-translate-y-1 hover:bg-slate-900">
+      <span class="text-3xl font-black text-slate-600">۲</span>
+      <h3 class="mt-2 font-bold">قانون KVL</h3>
+      <p class="mt-1 text-xs leading-6 text-slate-500">ولتاژها در یک حلقه</p>
+    </a>
+    <a href="#lesson3" class="section2-box3 rounded-2xl border border-slate-800 border-t-4 border-t-rose-400 bg-slate-900/50 p-5 transition hover:-translate-y-1 hover:bg-slate-900">
+      <span class="text-3xl font-black text-slate-600">۳</span>
+      <h3 class="mt-2 font-bold">قانون KCL</h3>
+      <p class="mt-1 text-xs leading-6 text-slate-500">جریان‌ها در یک گره</p>
+    </a>
+    <a href="#lesson4" class="section2-box4 rounded-2xl border border-slate-800 border-t-4 border-t-emerald-400 bg-slate-900/50 p-5 transition hover:-translate-y-1 hover:bg-slate-900">
+      <span class="text-3xl font-black text-slate-600">۴</span>
+      <h3 class="mt-2 font-bold">تحلیل گره</h3>
+      <p class="mt-1 text-xs leading-6 text-slate-500">مجهول: ولتاژ گره‌ها</p>
+    </a>
+    <a href="#lesson5" class="section2-box5 rounded-2xl border border-slate-800 border-t-4 border-t-violet-400 bg-slate-900/50 p-5 transition hover:-translate-y-1 hover:bg-slate-900">
+      <span class="text-3xl font-black text-slate-600">۵</span>
+      <h3 class="mt-2 font-bold">تحلیل مش</h3>
+      <p class="mt-1 text-xs leading-6 text-slate-500">مجهول: جریان حلقه‌ها</p>
+    </a>
+  </div>
+</section>
+
+<!-- Section3 : Lesson 1 -->
+<section id="lesson1" class="section3 scroll-mt-24 border-y border-slate-800 bg-slate-900/40">
+  <div class="mx-auto max-w-6xl px-6 py-14 ">
+    <p class="section3-part1-p-1 text-sm text-yellow-400">درس ۱</p>
+    <h2 class="section3-part1-h2 mt-1 text-2xl font-bold">مدارهای سری و موازی</h2>
+    <p class="section3-part1-p-2 mt-3 max-w-3xl leading-8 text-slate-400">
+      وقتی چند مقاومت داریم، اولین کار ساده کردن مدار است: چند مقاومت را با یک
+      <strong class="text-white">مقاومت معادل</strong> (R<sub>eq</sub>) عوض می‌کنیم، بدون اینکه جریان کل منبع تغییر کند.
+    </p>
+
+    <div class="section3-part2 mt-8 grid gap-5 md:grid-cols-2">
+      <article class="section3-part2-box1 rounded-2xl border border-slate-800 border-r-4 border-r-yellow-400 bg-slate-900/50 p-6">
+        <h3 class="section3-part2-box1-h3 text-lg font-bold">اتصال سری</h3>
+        <p class="section3-part2-box1-p-1 mt-3 leading-8 text-slate-400">قطعه‌ها پشت‌سرهم‌اند و فقط یک مسیر وجود دارد. جریان در همه یکسان است و ولتاژ بینشان تقسیم می‌شود.</p>
+        <p class="section3-part2-box1-p-2 mt-3 rounded-lg bg-slate-800/60 px-4 py-3 text-center font-semibold text-yellow-400" dir="ltr">R<sub>eq</sub> = R<sub>1</sub> + R<sub>2</sub> + R<sub>3</sub></p>
+        <p class="section3-part2-box1-p-3 mt-3 rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300">🚰 مثل چند لوله‌ی پشت‌سرهم: همه‌ی آب از هر سه می‌گذرد.</p>
+      </article>
+
+      <article class="section3-part2-box2 rounded-2xl border border-slate-800 border-r-4 border-r-sky-400 bg-slate-900/50 p-6">
+        <h3 class="section3-part2-box2-h3 text-lg font-bold">اتصال موازی</h3>
+        <p class="section3-part2-box2-p-1 mt-3 leading-8 text-slate-400">هر قطعه مسیر جداگانه دارد. ولتاژ در همه یکسان است و جریان بین شاخه‌ها تقسیم می‌شود.</p>
+        <p class="section3-part2-box2-p-2 mt-3 rounded-lg bg-slate-800/60 px-4 py-3 text-center font-semibold text-sky-400" dir="ltr">1/R<sub>eq</sub> = 1/R<sub>1</sub> + 1/R<sub>2</sub> + 1/R<sub>3</sub></p>
+        <p class="section3-part2-box2-p-3 mt-3 rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300">🛣️ مثل چند باند جاده: باند بیشتر، عبور راحت‌تر؛ پس R<sub>eq</sub> از کوچک‌ترین شاخه هم کمتر است.</p>
+      </article>
+    </div>
+
+    <div class="section3-part3 mt-8 overflow-x-auto rounded-2xl border border-slate-800">
+      <table class="section3-part3-table w-full min-w-120 text-sm">
+        <thead class="section3-part3-table-thead bg-slate-900 text-slate-300">
+          <tr><th class="px-4 py-3 text-right font-semibold">ویژگی</th><th class="px-4 py-3 text-right font-semibold text-yellow-400">سری</th><th class="px-4 py-3 text-right font-semibold text-sky-400">موازی</th></tr>
+        </thead>
+        <tbody class="section3-part3-table-tbody divide-y divide-slate-800 text-slate-400">
+          <tr><td class="px-4 py-3">جریان</td><td class="px-4 py-3">یکسان</td><td class="px-4 py-3">تقسیم می‌شود</td></tr>
+          <tr><td class="px-4 py-3">ولتاژ</td><td class="px-4 py-3">تقسیم می‌شود</td><td class="px-4 py-3">یکسان</td></tr>
+          <tr><td class="px-4 py-3">مقاومت معادل</td><td class="px-4 py-3">بزرگ‌تر از همه</td><td class="px-4 py-3">کوچک‌تر از همه</td></tr>
+          <tr><td class="px-4 py-3">اگر یک قطعه قطع شود</td><td class="px-4 py-3">کل مدار قطع</td><td class="px-4 py-3">بقیه کار می‌کنند</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section3-part4 mt-8 grid gap-3 md:grid-cols-2">
+      <div class="section3-part4-right flex gap-4 rounded-xl border border-slate-800 bg-slate-800/60 p-4">
+        <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-yellow-400 pt-1 text-sm font-bold text-slate-950">1</span>
+        <div><p class="text-sm text-slate-400">سه مقاومت ۱۰۰، ۲۰۰ و ۳۰۰ اهمی، سری</p><p class="font-semibold" dir="ltr">R<sub>eq</sub> = 100 + 200 + 300 = 600 Ω</p></div>
+      </div>
+      <div class="section3-part4-left flex gap-4 rounded-xl border border-slate-800 bg-slate-800/60 p-4">
+        <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-sky-400 pt-1 text-sm font-bold text-slate-950">2</span>
+        <div><p class="text-sm text-slate-400">دو مقاومت ۶ و ۳ اهمی، موازی</p><p class="font-semibold" dir="ltr">R<sub>eq</sub> = (6 × 3) / (6 + 3) = 2 Ω</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section4 : Lesson 2 -->
+<section id="lesson2" class="section4 scroll-mt-24 mx-auto max-w-6xl px-6 py-14">
+  <p class="section4-part1-p-1 text-sm text-sky-400">درس ۲</p>
+  <h2 class="section4-part1-h2 mt-1 text-2xl font-bold">قانون ولتاژ کیرشهف (KVL)</h2>
+  <p class="section4-part1-p-2 mt-3 max-w-3xl leading-8 text-slate-400">
+    مجموع ولتاژها در هر حلقه‌ی بسته صفر است. یعنی هر چقدر منبع به بارها انرژی می‌دهد، دقیقاً همان‌قدر در مقاومت‌ها «افت» می‌کند.
+  </p>
+
+  <div class="section4-part2 mt-8 grid items-center gap-6 lg:grid-cols-2">
+<div class="section4-part2-right rounded-2xl border border-slate-800 bg-slate-900/50 p-4">
+  <img
+    src="./assets/images/Electrical/series-circuit.png"
+    alt="مدار سری با باتری ۱۲ ولت و دو مقاومت ۲ و ۴ اهمی"
+    class="mx-auto w-full max-w-md rounded-xl"
+    loading="lazy"
+  />
+</div>
+
+    <ol class="section4-part2-left space-y-3">
+      <li class="flex gap-4 rounded-xl border border-slate-800 bg-slate-800/60 p-4"><span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-sky-400 pt-1 text-sm font-bold text-slate-950">1</span><p class="leading-8 text-slate-300">یک جهت برای چرخیدن در حلقه انتخاب کن (مثلاً ساعتگرد) و جهت جریان را هم همان بگیر.</p></li>
+      <li class="flex gap-4 rounded-xl border border-slate-800 bg-slate-800/60 p-4"><span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-sky-400 pt-1 text-sm font-bold text-slate-950">2</span><p class="leading-8 text-slate-300">از منبع شروع کن. ولتاژ منبع (عبور از − به +) مثبت، و افت روی هر مقاومت (R × I) منفی است.</p></li>
+      <li class="flex gap-4 rounded-xl border border-slate-800 bg-slate-800/60 p-4"><span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-sky-400 pt-1 text-sm font-bold text-slate-950">3</span><p class="leading-8 text-slate-300">همه را جمع بزن و برابر صفر بگذار، بعد معادله را حل کن.</p></li>
+    </ol>
+  </div>
+
+  <div class="section4-part3 mt-8 rounded-2xl border border-sky-400/20 bg-sky-400/5 p-6">
+    <h3 class="section4-part3-h3 font-bold text-sky-400">مثال حل‌شده</h3>
+    <div class="section4-part3-div1 mt-3 space-y-1 font-semibold leading-8" dir="ltr">
+      <p>+12 − 2·I − 4·I = 0 ⟹ I = 12 / 6 = 2 A</p>
+      <p>V<sub>1</sub> = 2 × 2 = 4 V , V<sub>2</sub> = 4 × 2 = 8 V</p>
+      <p class="text-emerald-400">بررسی: 12 − 4 − 8 = 0 ✓</p>
+    </div>
+  </div>
+</section>
+
+<!-- Section5 : Lesson 3-->
+<section id="lesson3" class="section5 scroll-mt-24 border-y border-slate-800 bg-slate-900/40">
+  <div class="section5-lesson3 mx-auto max-w-6xl px-6 py-14">
+    <p class="section5-lesson3-p-1 text-sm text-rose-400">درس ۳</p>
+    <h2 class="section5-lesson3-h2 mt-1 text-2xl font-bold">قانون جریان کیرشهف (KCL)</h2>
+    <p class="section5-lesson3-p-2 mt-3 max-w-3xl leading-8 text-slate-400">
+      <strong class="text-white">گره</strong> نقطه‌ای است که سه سیم یا بیشتر به هم می‌رسند. بار الکتریکی در گره جمع نمی‌شود و گم هم نمی‌شود:
+      مجموع جریان‌های ورودی برابر مجموع جریان‌های خروجی است.
+    </p>
+    <p class="section5-lesson3-p-3 mt-4 max-w-xl rounded-lg bg-slate-800/60 px-4 py-3 text-sm text-slate-300">💧 مثل دوراهی لوله: هر چقدر آب وارد می‌شود، همان‌قدر از شاخه‌ها بیرون می‌رود.</p>
+
+    <div class="section5-lesson3-two-box mt-8 grid gap-5 md:grid-cols-2">
+      <div class="section5-lesson3-box1 rounded-2xl border border-slate-800 border-r-4 border-r-rose-400 bg-slate-900/50 p-6">
+        <h3 class="section5-lesson3-box1-h3 font-bold">مثال ۱: جریان گمشده</h3>
+        <p class="mt-2 leading-8 text-slate-400">۵ آمپر وارد یک گره می‌شود و از یک شاخه ۲ آمپر خارج می‌شود. جریان شاخه‌ی دوم چقدر است؟</p>
+        <p class="mt-3 font-semibold" dir="ltr">5 = 2 + I ⟹ I = 3 A</p>
+      </div>
+      <div class="section5-lesson3-box2 rounded-2xl border border-slate-800 border-r-4 border-r-rose-400 bg-slate-900/50 p-6">
+        <h3 class="section5-lesson3-box2-h3 font-bold">مثال ۲: دو مقاومت موازی</h3>
+        <p class="mt-2 leading-8 text-slate-400">منبع ۱۲ ولت به دو مقاومت ۴ و ۶ اهمی موازی وصل است.</p>
+        <div class="section5-lesson3-box2-div1 mt-3 space-y-1 font-semibold" dir="ltr">
+          <p>I<sub>1</sub> = 12 / 4 = 3 A , I<sub>2</sub> = 12 / 6 = 2 A</p>
+          <p>I<sub>total</sub> = 3 + 2 = 5 A</p>
+          <p class="text-emerald-400">بررسی: R<sub>eq</sub> = 24/10 = 2.4 Ω ⟹ 12 / 2.4 = 5 A ✓</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section6 : Lesson 4 -->
+<section id="lesson4" class="section6 scroll-mt-24 mx-auto max-w-6xl px-6 py-14">
+  <p class="section6-p-1 text-sm text-emerald-400">درس ۴</p>
+  <h2 class="section6-h2 mt-1 text-2xl font-bold">تحلیل گره</h2>
+  <p class="section6-p-2 mt-3 max-w-3xl leading-8 text-slate-400">
+    وقتی مدار بزرگ‌تر از سری و موازی ساده است، ولتاژ گره‌ها را مجهول می‌گیریم و برای هر گره KCL می‌نویسیم. جریان هر مقاومت را هم از اختلاف ولتاژ دو سرش به‌دست می‌آوریم:
+  </p>
+  <p class="section6-p-3 mt-4 inline-block rounded-lg bg-slate-800/60 px-5 py-3 font-semibold text-emerald-400" dir="ltr">I = (V<sub>a</sub> − V<sub>b</sub>) / R</p>
+
+  <ol class="section6-list mt-8 grid gap-3 md:grid-cols-2">
+    <li class="section6-list-li1 flex gap-4 rounded-xl border border-slate-800 bg-slate-800/60 p-4"><span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-emerald-400 pt-1 text-sm font-bold text-slate-950">1</span><p class="leading-8 text-slate-300">یک گره را «مرجع» (زمین، ۰ ولت) انتخاب کن.</p></li>
+    <li class="section6-list-li2 flex gap-4 rounded-xl border border-slate-800 bg-slate-800/60 p-4"><span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-emerald-400 pt-1 text-sm font-bold text-slate-950">2</span><p class="leading-8 text-slate-300">برای بقیه‌ی گره‌ها ولتاژ مجهول بنویس. گرهی که مستقیم به منبع ولتاژ وصل به زمین است، ولتاژش معلوم است.</p></li>
+    <li class="section6-list-li3 flex gap-4 rounded-xl border border-slate-800 bg-slate-800/60 p-4"><span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-emerald-400 pt-1 text-sm font-bold text-slate-950">3</span><p class="leading-8 text-slate-300">برای هر گره‌ی مجهول KCL بنویس (مجموع جریان‌های خروجی = ۰).</p></li>
+    <li class="section6-list-li4 flex gap-4 rounded-xl border border-slate-800 bg-slate-800/60 p-4"><span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-emerald-400 pt-1 text-sm font-bold text-slate-950">4</span><p class="leading-8 text-slate-300">معادله‌ها را حل کن و در آخر جریان‌ها را حساب و بررسی کن.</p></li>
+  </ol>
+
+  <div class="section6-example mt-8 rounded-2xl border border-emerald-400/20 bg-emerald-400/5 p-6">
+    <h3 class="section6-example-h3 font-bold text-emerald-400">مثال حل‌شده</h3>
+    <p class="section6-example-p mt-2 leading-8 text-slate-300">منبع ۱۲ ولت به گره‌ی A وصل است. بین A و B مقاومت ۴ اهمی داریم و از B دو مقاومت ۶ و ۱۲ اهمی به زمین می‌روند. ولتاژ B چقدر است؟</p>
+    <div class="section6-example-formoula mt-3 space-y-1 font-semibold leading-8" dir="ltr">
+      <p>KCL at B: (V<sub>B</sub> − 12)/4 + V<sub>B</sub>/6 + V<sub>B</sub>/12 = 0</p>
+      <p>× 12 ⟹ 3(V<sub>B</sub> − 12) + 2V<sub>B</sub> + V<sub>B</sub> = 0 ⟹ V<sub>B</sub> = 6 V</p>
+      <p>I<sub>4Ω</sub> = 1.5 A , I<sub>6Ω</sub> = 1 A , I<sub>12Ω</sub> = 0.5 A</p>
+      <p class="text-emerald-400">بررسی: 1.5 = 1 + 0.5 ✓</p>
+    </div>
+  </div>
+</section>
+
+<!-- Section7 : Lesson 5-->
+<section id="lesson5" class="Section7 scroll-mt-24 border-y border-slate-800 bg-slate-900/40">
+  <div class="Section7-lesson5 mx-auto max-w-6xl px-6 py-14">
+    <p class="Section7-lesson5-p-1 text-sm text-violet-400">درس ۵</p>
+    <h2 class="Section7-lesson5-h2 mt-1 text-2xl font-bold">تحلیل مش</h2>
+    <p class="Section7-lesson5-p-2 mt-3 max-w-3xl leading-8 text-slate-400">
+      <strong class="text-white">مش</strong> حلقه‌ای است که داخلش حلقه‌ی دیگری نباشد. اینجا جریان هر مش را مجهول می‌گیریم و برای هر مش KVL می‌نویسیم.
+      مقاومتی که بین دو مش مشترک است، جریانش اختلاف دو جریان مش است.
+    </p>
+
+    <div class="Section7-lesson5-part1 mt-8 rounded-2xl border border-violet-400/20 bg-violet-400/5 p-6">
+      <h3 class="Section7-lesson5-part1-h3 font-bold text-violet-400">مثال حل‌شده</h3>
+      <p class="Section7-lesson5-part1-p mt-2 leading-8 text-slate-300">مش اول: منبع ۱۰ ولت و R<sub>1</sub> = 2 Ω. مش دوم: R<sub>3</sub> = 4 Ω. مقاومت مشترک: R<sub>2</sub> = 4 Ω. هر دو جریان را ساعتگرد بگیر.</p>
+      <div class="Section7-lesson5-part1-formoula mt-3 space-y-1 font-semibold leading-8" dir="ltr">
+        <p>Mesh 1: 10 = 2·I<sub>1</sub> + 4(I<sub>1</sub> − I<sub>2</sub>)</p>
+        <p>Mesh 2: 0 = 4(I<sub>2</sub> − I<sub>1</sub>) + 4·I<sub>2</sub> ⟹ I<sub>2</sub> = 0.5·I<sub>1</sub></p>
+        <p>10 = 6I<sub>1</sub> − 2I<sub>1</sub> ⟹ I<sub>1</sub> = 2.5 A , I<sub>2</sub> = 1.25 A</p>
+        <p class="text-emerald-400">بررسی با درس ۱: R<sub>2</sub> ∥ R<sub>3</sub> = 2 Ω ⟹ R<sub>total</sub> = 4 Ω ⟹ I = 10/4 = 2.5 A ✓</p>
+      </div>
+    </div>
+
+    <div class="Section7-lesson5-part2 mt-6 grid gap-5 md:grid-cols-2">
+      <div class="Section7-lesson5-part2-right rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+        <h3 class="Section7-lesson5-part2-right-h3 font-bold text-emerald-400">گره یا مش؟</h3>
+        <p class="Section7-lesson5-part2-right-p mt-2 leading-8 text-slate-400">اگر گره‌ی مجهول کمتری دارید، گره راحت‌تر است؛ اگر حلقه‌ی کمتری دارید، مش را انتخاب کنید. هر دو جواب یکسان می‌دهند.</p>
+      </div>
+      <div class="Section7-lesson5-part2-left rounded-2xl border border-yellow-400/20 bg-yellow-400/5 p-6">
+        <h3 class="Section7-lesson5-part2-left-h3 flex items-center gap-2 font-bold text-yellow-400">⚠️ اشتباه‌های رایج</h3>
+        <p class="Section7-lesson5-part2-left-p mt-2 leading-8 text-slate-300">جابه‌جا گرفتن علامت‌ها در KVL، موازی حساب کردن مقاومت‌های سری، و ترسیدن از جواب منفی: جریان منفی فقط یعنی جهت واقعی برعکسِ جهت فرضی توست.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="mx-auto max-w-6xl px-6 pb-20">
+  <div class="flex flex-col items-center rounded-2xl border border-yellow-400/20 bg-linear-to-l from-yellow-400/10 to-transparent p-8 text-center sm:flex-row sm:text-right">
+    
+    <div>
+      <h3 class="text-xl font-bold">آماده‌ای مدارها را شروع کنی؟</h3>
+      <p class="mt-1 text-slate-400">درس بعدی: مدارهای الکتریکی</p>
+    </div>
+
+    <!-- گروه دکمه‌ها: می‌چسبه به سمت چپ -->
+    <div class="mt-6 flex flex-col items-center gap-3 sm:mt-0 sm:mr-auto sm:flex-row">
+      <a href="./Electronic.html" class="rounded-lg bg-yellow-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-yellow-300">
+        شروع درس بعد
+      </a>
+      <a href="./MabaniBargh.html" class="rounded-lg border border-slate-700 px-6 py-3 font-semibold text-slate-300 transition hover:text-white">
+        مرور درس قبلی
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>

@@ -48,17 +48,17 @@
 
 <!-- Mobile menu button -->
  <!-- Hamburger Menu -->
-        <input id="menu-toggle" type="checkbox" class="sr-only" aria-label="باز و بسته کردن منو" />
+        <input id="menu-toggle" type="checkbox" class="sr-only" aria-label="باز و بسته کردن منو" /></div>
         <label for="menu-toggle" class="inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-slate-700 text-slate-300 transition hover:text-white md:hidden">
-          <svg class="h-5 w-5 group-has-[:checked]:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-          <svg class="hidden h-5 w-5 group-has-[:checked]:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+          <svg class="h-5 w-5 group-has-checked:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="hidden h-5 w-5 group-has-checked:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
         </label>
       </div>
 
     </div>
 
 <!-- Mobile menu (Nav) -->
-    <nav id="mobile-menu" class="hidden border-t border-slate-800 px-4 pb-4 pt-2 group-has-[:checked]:block md:hidden" aria-label="منوی موبایل">
+    <nav id="mobile-menu" class="hidden border-t border-slate-800 px-4 pb-4 pt-2 group-has-checked:block md:hidden" aria-label="منوی موبایل">
       <div class="mx-auto flex max-w-7xl flex-col gap-1 text-sm">
       <a href="index.html" class="rounded-lg px-3 py-3 bg-yellow-400/10 text-yellow-400">خانه</a>
       <a href="./Teach.html" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">آموزش</a>
@@ -75,16 +75,16 @@
 
 <!-- Backgroung image . Hide from bottem -->
     <div
-      class="section1-Background-image pointer-events-none absolute inset-0 hidden bg-cover bg-right-top bg-no-repeat opacity-90 bg-[url(assets/images/Top-Banner/bg--2.png)] md:block"
+      class="section1-Background-image pointer-events-none absolute inset-0 hidden bg-cover bg-top-right bg-no-repeat opacity-90 bg-[url(assets/images/Top-Banner/bg--2.png)] md:block"
       style="-webkit-mask-image: linear-gradient(to bottom, #000 60%, transparent 100%); mask-image: linear-gradient(to bottom, #000 70%, transparent 100%);"
       aria-hidden="true"
     ></div>
 
 <!-- Black Background for text banner asli -->
-    <div class="section1-back-text pointer-events-none absolute inset-0 hidden md:block md:bg-gradient-to-r md:from-[#0f172a]/95 md:via-[#0f172a]/70 md:to-[#0f172a]/20" aria-hidden="true"></div>
+    <div class="section1-back-text pointer-events-none absolute inset-0 hidden md:block md:bg-linear-to-r md:from-[#0f172a]/95 md:via-[#0f172a]/70 md:to-[#0f172a]/20" aria-hidden="true"></div>
 
 <!-- Hide Bottem Banner up to next section -->
-    <div class="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-[#0f172a] md:h-64" aria-hidden="true"></div>
+    <div class="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-linear-to-b from-transparent to-[#0f172a] md:h-64" aria-hidden="true"></div>
 
 <!-- Mobile banner image: shown in full above the text -->
     <div class="relative md:hidden" aria-hidden="true">
@@ -98,7 +98,7 @@
       <div class="mr-auto max-w-xl text-right">
 
 <!-- Titles -->
-        <h1 class="text-3xl font-bold leading-[1.5] tracking-tight sm:text-4xl lg:text-5xl">
+        <h1 class="text-3xl font-bold leading-normal tracking-tight sm:text-4xl lg:text-5xl">
           دنیای مهندسی برق،
           <span class="block text-4xl text-yellow-400">یکجا</span>
         </h1>
@@ -113,7 +113,7 @@
   <form action="#" class="mt-8 w-full">
   <label for="search" class="sr-only">جستجو</label>
   <div class="flex items-center gap-2 rounded-2xl border border-slate-600 bg-slate-900/90 p-2 transition focus-within:border-yellow-400/60">
-  <svg class="h-5 w-5 shrink-0 text-slate-500 [margin-inline-start:0.75rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+  <svg class="h-5 w-5 shrink-0 text-slate-500 ms-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
   <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
       </svg>
   <input
@@ -156,7 +156,7 @@ class="min-w-0 flex-1 bg-transparent px-2 py-3 text-base text-white placeholder:
     </div>
 
     <!-- Fade: bottom of Titles blends into the next section -->
-    <div class="pointer-events-none absolute inset-x-0 top-full h-20 bg-gradient-to-b from-[#0f172a] to-transparent" aria-hidden="true"></div>
+    <div class="pointer-events-none absolute inset-x-0 top-full h-20 bg-linear-to-b from-[#0f172a] to-transparent" aria-hidden="true"></div>
   </section>
 
 <!-- electrical engineering -->
@@ -166,7 +166,7 @@ class="min-w-0 flex-1 bg-transparent px-2 py-3 text-base text-white placeholder:
   <div class="pointer-events-none absolute inset-0 opacity-60"
        style="background-image: radial-gradient(rgba(148,163,184,.14) 1px, transparent 1px); background-size: 26px 26px; -webkit-mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%); mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%);"
        aria-hidden="true"></div>
-  <div class="pointer-events-none absolute -right-40 top-0 h-80 w-80 rounded-full bg-yellow-400/[0.06] blur-[110px]" aria-hidden="true"></div>
+  <div class="pointer-events-none absolute -right-40 top-0 h-80 w-80 rounded-full bg-yellow-400/6 blur-[110px]" aria-hidden="true"></div>
 
   <div class="relative mx-auto max-w-6xl">
 
@@ -177,8 +177,8 @@ class="min-w-0 flex-1 bg-transparent px-2 py-3 text-base text-white placeholder:
         هشت مسیر، یک رشته
       </span>
       <h2 class="mt-5 text-2xl font-extrabold leading-snug text-white sm:text-3xl lg:text-4xl">
-        از <span class="relative inline-block text-yellow-400">نیروگاه<span class="absolute inset-x-0 -bottom-1 h-[3px] rounded bg-yellow-400/40"></span></span> تا
-        <span class="relative inline-block text-yellow-400">تراشه<span class="absolute inset-x-0 -bottom-1 h-[3px] rounded bg-yellow-400/40"></span></span>؛ مسیرت رو پیدا کن
+        از <span class="relative inline-block text-yellow-400">نیروگاه<span class="absolute inset-x-0 -bottom-1 h-0.75 rounded bg-yellow-400/40"></span></span> تا
+        <span class="relative inline-block text-yellow-400">تراشه<span class="absolute inset-x-0 -bottom-1 h-0.75 rounded bg-yellow-400/40"></span></span>؛ مسیرت رو پیدا کن
       </h2>
       <p class="mt-4 text-sm leading-7 text-slate-400 sm:text-base">
         مهندسی برق یک رشته‌ی واحد نیست، مجموعه‌ای از حوزه‌هاست. هر کدوم رو بشناس و ببین کدوم به تو نزدیک‌تره.
@@ -189,91 +189,91 @@ class="min-w-0 flex-1 bg-transparent px-2 py-3 text-base text-white placeholder:
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
 
       <!-- 1 قدرت -->
-      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/[0.06] sm:col-span-2">
+      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/3 p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/6 sm:col-span-2">
         <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-yellow-400/30 bg-yellow-400/10 text-yellow-400 transition group-hover:bg-yellow-400 group-hover:text-slate-950">
           <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         </div>
         <h3 class="text-xl font-bold text-white">مهندسی قدرت</h3>
         <p class="mt-3 max-w-md text-sm leading-7 text-slate-400">تولید، انتقال، توزیع و مدیریت انرژی الکتریکی؛ از نیروگاه تا پریزی که گوشی‌ات به آن وصل است.</p>
 
-        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-gradient-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
+        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-linear-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
       </div>
 
       <!-- 2 الکترونیک -->
-      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/[0.06]">
+      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/3 p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/6">
 
         <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-yellow-400/30 bg-yellow-400/10 text-yellow-400 transition group-hover:bg-yellow-400 group-hover:text-slate-950">
           <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>
         </div>
         <h3 class="text-xl font-bold text-white">الکترونیک</h3>
         <p class="mt-3 text-sm leading-7 text-slate-400">مدارها، قطعات و سیستم‌های الکترونیکی.</p>
-        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-gradient-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
+        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-linear-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
       </div>
 
       <!-- 3 کنترل -->
-      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/[0.06]">
+      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/3 p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/6">
 
         <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-yellow-400/30 bg-yellow-400/10 text-yellow-400 transition group-hover:bg-yellow-400 group-hover:text-slate-950">
           <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></svg>
         </div>
         <h3 class="text-xl font-bold text-white">کنترل</h3>
         <p class="mt-3 text-sm leading-7 text-slate-400">تحلیل و طراحی سیستم‌های کنترل و اتوماسیون.</p>
-        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-gradient-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
+        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-linear-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
       </div>
 
       <!-- 4 مخابرات -->
-      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/[0.06]">
+      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/3 p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/6">
 
         <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-yellow-400/30 bg-yellow-400/10 text-yellow-400 transition group-hover:bg-yellow-400 group-hover:text-slate-950">
           <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg>
         </div>
         <h3 class="text-xl font-bold text-white">مخابرات</h3>
         <p class="mt-3 text-sm leading-7 text-slate-400">انتقال، پردازش و دریافت اطلاعات.</p>
-        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-gradient-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
+        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-linear-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
       </div>
 
       <!-- 5 الکترونیک قدرت -->
-      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/[0.06]">
+      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/3 p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/6">
 
         <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-yellow-400/30 bg-yellow-400/10 text-yellow-400 transition group-hover:bg-yellow-400 group-hover:text-slate-950">
           <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.19M15 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.19M23 13v-2M11 6l-4 6h6l-4 6"/></svg>
         </div>
         <h3 class="text-xl font-bold text-white">الکترونیک قدرت</h3>
         <p class="mt-3 text-sm leading-7 text-slate-400">تبدیل و کنترل توان با ادوات نیمه‌رسانا.</p>
-        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-gradient-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
+        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-linear-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
       </div>
 
       <!-- 6 ابزار دقیق (عریض) -->
-      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/[0.06] sm:col-span-2">
+      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/3 p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/6 sm:col-span-2">
 
         <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-yellow-400/30 bg-yellow-400/10 text-yellow-400 transition group-hover:bg-yellow-400 group-hover:text-slate-950">
           <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 14 4-4M3.34 19a10 10 0 1 1 17.32 0"/></svg>
         </div>
         <h3 class="text-xl font-bold text-white">ابزار دقیق</h3>
         <p class="mt-3 max-w-md text-sm leading-7 text-slate-400">اندازه‌گیری، سنجش و کنترل کمیت‌های فیزیکی مثل دما، فشار و دبی در سیستم‌های صنعتی.</p>
-        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-gradient-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
+        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-linear-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
       </div>
 
       <!-- 7 دیجیتال (عریض) -->
-      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/[0.06] sm:col-span-2">
+      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/3 p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/6 sm:col-span-2">
 
         <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-yellow-400/30 bg-yellow-400/10 text-yellow-400 transition group-hover:bg-yellow-400 group-hover:text-slate-950">
           <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
         </div>
         <h3 class="text-xl font-bold text-white">سیستم‌های دیجیتال</h3>
         <p class="mt-3 max-w-md text-sm leading-7 text-slate-400">منطق دیجیتال، مدارهای منطقی، سیستم‌های ترتیبی و مبانی طراحی مدارهای دیجیتال.</p>
-        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-gradient-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
+        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-linear-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
       </div>
 
       <!-- 8 انرژی‌های نو (عریض) -->
-      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/[0.06] sm:col-span-2">
+      <div href="#" class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/3 p-5 backdrop-blur sm:p-7 transition duration-300 hover:border-yellow-400/50 hover:bg-white/6 sm:col-span-2">
 
         <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-yellow-400/30 bg-yellow-400/10 text-yellow-400 transition group-hover:bg-yellow-400 group-hover:text-slate-950">
           <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
         </div>
         <h3 class="text-xl font-bold text-white">انرژی‌های نو</h3>
         <p class="mt-3 max-w-md text-sm leading-7 text-slate-400">منابع انرژی تجدیدپذیر و فناوری‌های نوین تولید انرژی؛ خورشید، باد و ذخیره‌سازی.</p>
-        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-gradient-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
+        <span class="absolute inset-x-0 bottom-0 h-0.5 origin-right scale-x-0 bg-linear-to-l from-yellow-400 to-transparent transition duration-500 group-hover:scale-x-100"></span>
       </div>
 
     </div>
@@ -293,67 +293,67 @@ class="min-w-0 flex-1 bg-transparent px-2 py-3 text-base text-white placeholder:
   <div class="mx-auto grid max-w-7xl gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
 
       <article class="group flex h-full cursor-pointer flex-col rounded-3xl border border-gray-600 bg-[#1a2746] transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl md:hover:scale-[1.03]">
-        <div class="aspect-[380/230] w-full">
+        <div class="aspect-380/230 w-full">
           <img class="h-full w-full rounded-3xl object-cover" src="./assets/images/section3/image-1.jpg" alt="چرا جریان برق در یک مدار حرکت می‌کند؟" loading="lazy" />
         </div>
         <div class="flex flex-1 flex-col">
           <p class="px-4 pt-3 text-[13px] text-yellow-400">مبانی برق</p>
-          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-[5.75rem] sm:text-[18px]">چرا جریان برق در یک مدار حرکت می‌کند؟</h3>
+          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-23 sm:text-[18px]">چرا جریان برق در یک مدار حرکت می‌کند؟</h3>
           <p class="mt-auto px-4 pb-5 pt-4 text-center text-sm leading-7 text-gray-300 sm:text-[15px]">جریان برق به دلیل وجود اختلاف پتانسیل (ولتاژ) بین دو نقطه و در یک مدار بسته حرکت می‌کند.</p>
         </div>
       </article>
 
       <article class="group flex h-full cursor-pointer flex-col rounded-3xl border border-gray-600 bg-[#1a2746] transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl md:hover:scale-[1.03]">
-        <div class="aspect-[380/230] w-full">
+        <div class="aspect-380/230 w-full">
           <img class="h-full w-full rounded-3xl object-cover" src="./assets/images/section3/image-2.jpg" alt="چرا برای انتقال برق از ولتاژ بالا استفاده می‌شود؟" loading="lazy" />
         </div>
         <div class="flex flex-1 flex-col">
           <p class="px-4 pt-3 text-[13px] text-yellow-400">قدرت</p>
-          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-[5.75rem] sm:text-[18px]">چرا برای انتقال برق از ولتاژ بالا استفاده می‌شود؟</h3>
+          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-23 sm:text-[18px]">چرا برای انتقال برق از ولتاژ بالا استفاده می‌شود؟</h3>
           <p class="mt-auto px-4 pb-5 pt-4 text-center text-sm leading-7 text-gray-300 sm:text-[15px]">برای کاهش جریان برق و در نتیجه کم شدن تلفات انرژی و گرمای ایجاد شده در سیم‌ها، برق را با ولتاژ بالا انتقال می‌دهند.</p>
         </div>
       </article>
 
       <article class="group flex h-full cursor-pointer flex-col rounded-3xl border border-gray-600 bg-[#1a2746] transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl md:hover:scale-[1.03]">
-        <div class="aspect-[380/230] w-full">
+        <div class="aspect-380/230 w-full">
           <img class="h-full w-full rounded-3xl object-cover" src="./assets/images/section3/image-5.jpg" alt="سیستم کنترل حلقه بسته چیست و چگونه کار می‌کند؟" loading="lazy" />
         </div>
         <div class="flex flex-1 flex-col">
           <p class="px-4 pt-3 text-[13px] text-yellow-400">کنترل</p>
-          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-[5.75rem] sm:text-[18px]">سیستم کنترل حلقه بسته چیست و چگونه کار می‌کند؟</h3>
+          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-23 sm:text-[18px]">سیستم کنترل حلقه بسته چیست و چگونه کار می‌کند؟</h3>
           <p class="mt-auto px-4 pb-5 pt-4 text-center text-sm leading-7 text-gray-300 sm:text-[15px]">این سیستم خروجی را بررسی کرده و با بازخورد خطا را اصلاح می‌کند</p>
         </div>
       </article>
 
       <article class="group flex h-full cursor-pointer flex-col rounded-3xl border border-gray-600 bg-[#1a2746] transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl md:hover:scale-[1.03]">
-        <div class="aspect-[380/230] w-full">
+        <div class="aspect-380/230 w-full">
           <img class="h-full w-full rounded-3xl object-cover" src="./assets/images/section3/image-3.jpg" alt="امواج رادیویی چگونه اطلاعات را منتقل می‌کند؟" loading="lazy" />
         </div>
         <div class="flex flex-1 flex-col">
           <p class="px-4 pt-3 text-[13px] text-yellow-400">مخابرات</p>
-          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-[5.75rem] sm:text-[18px]">امواج رادیویی چگونه اطلاعات را منتقل می‌کند؟</h3>
+          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-23 sm:text-[18px]">امواج رادیویی چگونه اطلاعات را منتقل می‌کند؟</h3>
           <p class="mt-auto px-4 pb-5 pt-4 text-center text-sm leading-7 text-gray-300 sm:text-[15px]">امواج رادیویی با تغییر دامنه،فرکانس یا فاز خود ، اطلاعات را<br>از فرستنده به گیرنده منتقل می‌کند</p>
         </div>
       </article>
 
       <article class="group flex h-full cursor-pointer flex-col rounded-3xl border border-gray-600 bg-[#1a2746] transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl md:hover:scale-[1.03]">
-        <div class="aspect-[380/230] w-full">
+        <div class="aspect-380/230 w-full">
           <img class="h-full w-full rounded-3xl object-cover" src="./assets/images/section3/image-4.jpg" alt="تفاوت مدار سری و موازی؟" loading="lazy" />
         </div>
         <div class="flex flex-1 flex-col">
           <p class="px-4 pt-3 text-[13px] text-yellow-400">مدار</p>
-          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-[5.75rem] sm:text-[18px]">تفاوت مدار سری و موازی؟</h3>
+          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-23 sm:text-[18px]">تفاوت مدار سری و موازی؟</h3>
           <p class="mt-auto px-4 pb-5 pt-4 text-center text-sm leading-7 text-gray-300 sm:text-[15px]">مدار سری:قطعات پشت سرهم وصل می‌شوند و جریان در همه یکسانه<br>مدار موازی:قطعات در شاخه‌های جدا وصل می‌شوند و ولتاژ دو سر هر شاخه یکسانه</p>
         </div>
       </article>
 
       <article class="group flex h-full cursor-pointer flex-col rounded-3xl border border-gray-600 bg-[#1a2746] transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl md:hover:scale-[1.03]">
-        <div class="aspect-[380/230] w-full">
+        <div class="aspect-380/230 w-full">
           <img class="h-full w-full rounded-3xl object-cover" src="./assets/images/section3/image-6.jpg" alt="دیود در مدارهای الکتریکی چیست؟" loading="lazy" />
         </div>
         <div class="flex flex-1 flex-col">
           <p class="px-4 pt-3 text-[13px] text-yellow-400">الکترونیک</p>
-          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-[5.75rem] sm:text-[18px]">دیود در مدارهای الکتریکی چیست؟</h3>
+          <h3 class="border-b-2 border-gray-600 px-4 pb-5 pt-3 text-[17px] leading-7 sm:min-h-23 sm:text-[18px]">دیود در مدارهای الکتریکی چیست؟</h3>
           <p class="mt-auto px-4 pb-5 pt-4 text-center text-sm leading-7 text-gray-300 sm:text-[15px]">قطعه ای الکتریکی است که جریان برق را عمدتا در یک جهت عبور می‌دهد و از جهت مخالف جلوگیری می‌کند</p>
         </div>
       </article>

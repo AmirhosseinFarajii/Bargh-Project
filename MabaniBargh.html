@@ -34,7 +34,7 @@
 <!-- Header Nav -->
       <nav class="Header-Nav hidden items-center gap-7 text-sm text-slate-300 md:flex">
         <a href="index.html" class="text-yellow-400">خانه</a>
-        <a href="#" class="transition hover:text-white">آموزش</a>
+        <a href="./Teach.html" class="transition hover:text-white">آموزش</a>
         <a href="#" class="transition hover:text-white">دانشنامه</a>
         <a href="#" class="transition hover:text-white">مقالات</a>
         <a href="#" class="transition hover:text-white">ابزارها</a>
@@ -50,15 +50,15 @@
  <!-- Hamburger Menu -->
         <input id="menu-toggle" type="checkbox" class="sr-only" aria-label="باز و بسته کردن منو" />
         <label for="menu-toggle" class="inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-slate-700 text-slate-300 transition hover:text-white md:hidden">
-          <svg class="h-5 w-5 group-has-[:checked]:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-          <svg class="hidden h-5 w-5 group-has-[:checked]:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+          <svg class="h-5 w-5 group-has-checked:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="hidden h-5 w-5 group-has-checked:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
         </label>
       </div>
 
     </div>
 
 <!-- Mobile menu (Nav) -->
-    <nav id="mobile-menu" class="hidden border-t border-slate-800 px-4 pb-4 pt-2 group-has-[:checked]:block md:hidden" aria-label="منوی موبایل">
+    <nav id="mobile-menu" class="hidden border-t border-slate-800 px-4 pb-4 pt-2 group-has-checked:block md:hidden" aria-label="منوی موبایل">
       <div class="mx-auto flex max-w-7xl flex-col gap-1 text-sm">
       <a href="index.html" class="rounded-lg px-3 py-3 bg-yellow-400/10 text-yellow-400">خانه</a>
       <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">آموزش</a>
@@ -91,6 +91,7 @@
  
 <!-- Section1 Formula Part -->
   <div class="sectuion1-Formula-Part mt-10 grid grid-cols-1 gap-3 sm:grid-cols-3">
+<div class="section1-Back-circle-yellow pointer-events-none absolute -top-24 right-1/4 h-80 w-80 rounded-full bg-yellow-300/15 blur-[110px]"></div>
     <div class="rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
       <p class="text-xs text-slate-500">قانون اهم</p>
       <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">V = I × R</p>
@@ -262,7 +263,7 @@
       <h3 class="section4-Importent-h3 flex items-center gap-2 text-lg font-bold text-yellow-400">⚠️ نکته‌ی ایمنی</h3>
       <p class="section4-Importent-p mt-3 leading-8 text-slate-300">
         با باتری و ولتاژهای پایین می‌شود با خیال راحت تمرین کرد، اما برق شهری (۲۲۰ ولت) خطرناک است
-        و می‌تواند کشنده باشد. هیچ‌وقت بدون آموزش و بدون قطع کردن برق سراغ سیم‌کشی خانه نرو.
+        و می‌تواند کشنده باشد. هیچ‌وقت بدون آموزش و بدون قطع کردن برق سراغ سیم‌کشی خانه نروید.
       </p>
     </div>
   </section>
@@ -305,17 +306,27 @@
   </section>
  
  
-  <section class="mx-auto max-w-6xl px-6 pb-20">
-    <div class="flex flex-col items-center justify-between gap-5 rounded-2xl border border-yellow-400/20 bg-gradient-to-l from-yellow-400/10 to-transparent p-8 text-center sm:flex-row sm:text-right">
-      <div>
-        <h3 class="text-xl font-bold">آماده‌ای مدارها را شروع کنی؟</h3>
-        <p class="mt-1 text-slate-400">درس بعدی: مدارهای سری و موازی</p>
-      </div>
-      <a href="#" class="rounded-lg bg-yellow-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-yellow-300">
+<!-- CTA -->
+<section class="mx-auto max-w-6xl px-6 pb-20">
+  <div class="flex flex-col items-center rounded-2xl border border-yellow-400/20 bg-linear-to-l from-yellow-400/10 to-transparent p-8 text-center sm:flex-row sm:text-right">
+    
+    <div>
+      <h3 class="text-xl font-bold">آماده‌ای مدارها را شروع کنی؟</h3>
+      <p class="mt-1 text-slate-400">درس بعدی: مدارهای الکتریکی</p>
+    </div>
+
+    <!-- گروه دکمه‌ها: می‌چسبه به سمت چپ -->
+    <div class="mt-6 flex flex-col items-center gap-3 sm:mt-0 sm:mr-auto sm:flex-row">
+      <a href="./Electrical-Circuits.html" class="rounded-lg bg-yellow-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-yellow-300">
         شروع درس بعد
       </a>
+      <a href="MabaniBargh.html" class="rounded-lg border border-slate-700 px-6 py-3 font-semibold text-slate-300 transition hover:text-white">
+        مرور مبانی برق درس قبلی
+      </a>
     </div>
-  </section>
+
+  </div>
+</section>
 
 
 

@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="fa-IR" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barghyar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
+<style>
+  body {
+    font-family: 'Vazirmatn', sans-serif;
+  }
+  a:focus-visible, input:focus-visible, button:focus-visible {
+    outline: 2px solid #facc15;
+    outline-offset: 2px;
+  }
+</style>
+</head>
+
+<body class="overflow-x-hidden bg-[#0f172a] text-white antialiased">
+
+<!-- Header -->
+  <header class="Header group sticky top-0 z-50 border-b border-slate-800 bg-[#0f172a] backdrop-blur">
+    <div class="Header-content mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4">
+
+      <a href="index.html" class="flex items-center gap-2 text-lg font-bold sm:text-xl">
+        <span class="text-yellow-400">⚡</span>
+  <div class="flex items-center gap-2">
+    <span class="text-lg font-black">برق‌یار</span>
+    <span class="h-5 w-px bg-slate-600"></span>
+    <span class="text-[15px] tracking-wide text-slate-400 pt-1">Barghyar</span>
+  </div>
+      </a>
+<!-- Header Nav -->
+      <nav class="Header-Nav hidden items-center gap-7 text-sm text-slate-300 md:flex">
+        <a href="index.html" class="transition hover:text-white">خانه</a>
+        <a href="Teach.html" class="text-yellow-400">آموزش</a>
+        <a href="#" class="transition hover:text-white">دانشنامه</a>
+        <a href="#" class="transition hover:text-white">مقالات</a>
+        <a href="#" class="transition hover:text-white">ابزارها</a>
+        <a href="#" class="transition hover:text-white">پروژه‌ها</a>
+      </nav>
+<!-- Header botten -->
+      <div class="Header-Button flex items-center gap-2">
+        <a href="#" class="whitespace-nowrap rounded-lg bg-yellow-400 px-3 py-2 text-xs font-bold text-slate-950 transition hover:bg-yellow-300 sm:px-5 sm:text-sm">
+          ورود / ثبت‌نام
+        </a>
+
+<!-- Hamburger Menu -->
+        <input id="menu-toggle" type="checkbox" class="sr-only" aria-label="باز و بسته کردن منو" />
+        <label for="menu-toggle" class="inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-slate-700 text-slate-300 transition hover:text-white md:hidden">
+          <svg class="h-5 w-5 group-has-checked:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="hidden h-5 w-5 group-has-checked:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </label>
+      </div>
+
+    </div>
+
+<!-- Mobile menu (Nav) -->
+    <nav id="mobile-menu" class="hidden border-t border-slate-800 px-4 pb-4 pt-2 group-has-checked:block md:hidden" aria-label="منوی موبایل">
+      <div class="mx-auto flex max-w-7xl flex-col gap-1 text-sm">
+      <a href="index.html" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">خانه</a>
+      <a href="Teach.html" class="rounded-lg px-3 py-3 bg-yellow-400/10 text-yellow-400">آموزش</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">دانشنامه</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">مقالات</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">ابزارها</a>
+      <a href="#" class="rounded-lg px-3 py-3 text-slate-300 transition hover:bg-slate-800 hover:text-white">پروژه‌ها</a>
+      </div>
+    </nav>
+  </header>
+
+    <!-- Section1 : Banner -->
+<section class="section1 relative overflow-hidden border-b border-slate-800">
+  <div class="section1-Back-circle-yellow pointer-events-none absolute -top-24 right-1/4 h-80 w-80 rounded-full bg-yellow-300/15 blur-[110px]"></div>
+  <div class="section1-top-banner-part1 relative mx-auto max-w-6xl px-6 py-14 sm:py-20">
+    <p class="section1-top-banner-part1-p-title mb-4 flex items-center gap-2 text-sm text-yellow-400">
+      <span class="h-1.5 w-1.5 rounded-full bg-yellow-400"></span>
+      <a href="Teach.html" class="hover:underline">آموزش</a> / مهندسی قدرت
+    </p>
+
+    <h1 class="section1-top-banner-part1-h1 text-3xl font-extrabold leading-tight sm:text-5xl">
+      مهندسی <span class="text-yellow-400">قدرت</span>
+    </h1>
+
+    <p class="section1-top-banner-part1-p mt-5 max-w-2xl leading-8 text-slate-400">
+      در این مسیر مشاهده می کنیم که برق از نیروگاه چطور تا پریز ‌خانه‌ی ما می‌رسد، سیستم سه‌فاز چه فایده‌ای دارد،
+      ترانسفورماتور ولتاژ را چطور بالا و پایین می‌برد و ضریب توان یعنی چه؛ در آخر هم توان یک بار سه‌فاز را با هم محاسبه می‌کنیم.
+    </p>
+
+    <div class="section1-top-banner-part2 mt-6 flex flex-wrap gap-3 text-xs">
+      <span class="rounded-full border border-slate-800 bg-slate-900/60 px-3 py-1 text-slate-400">سطح: متوسط</span>
+      <span class="rounded-full border border-slate-800 bg-slate-900/60 px-3 py-1 text-slate-400">۴ درس</span>
+      <a href="./Electrical-Circuits.html" class="rounded-full border border-yellow-400/20 bg-yellow-400/5 px-3 py-1 text-yellow-400 transition hover:bg-yellow-400/10">پیش‌نیاز: مدارهای الکتریکی ←</a>
+    </div>
+
+    <div class="section1-top-banner-part3 mt-10 grid grid-cols-1 gap-3 sm:grid-cols-3">
+      <div class="section1-top-banner-part3-div1 rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+        <p class="text-xs text-slate-300">توان سه‌فاز</p>
+        <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">P = √3 × V<sub class="text-sm">L</sub> × I<sub class="text-sm">L</sub> × cosφ</p>
+        <p class="text-[15px] text-center text-slate-500 pt-2">توان واقعی یک بار سه‌فاز از ولتاژ خط، جریان خط و ضریب توان به دست می‌آید.</p>
+      </div>
+      <div class="section1-top-banner-part3-div2 rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+        <p class="text-xs text-slate-300">ترانسفورماتور (ایده‌آل)</p>
+        <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">V<sub class="text-sm">1</sub> / V<sub class="text-sm">2</sub> = N<sub class="text-sm">1</sub> / N<sub class="text-sm">2</sub></p>
+        <p class="text-[15px] text-center text-slate-500 pt-2">نسبت ولتاژها برابر نسبت تعداد دورهای سیم‌پیچ اولیه و ثانویه است.</p>
+      </div>
+      <div class="section1-top-banner-part3-div3 rounded-xl border border-slate-800 bg-slate-900/60 px-5 py-4 text-center">
+        <p class="text-xs text-slate-300">تلفات خط انتقال</p>
+        <p class="mt-1 text-2xl font-bold text-yellow-400" dir="ltr">P<sub class="text-sm">loss</sub> = I² × R</p>
+        <p class="text-[15px] text-center text-slate-500 pt-2">تلفات با مجذور جریان زیاد می‌شود؛ برای همین انتقال برق با ولتاژ بالا انجام می‌شود.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section2  -->
+<section class="Section2 mx-auto max-w-6xl space-y-10 px-4 py-10 text-slate-200" dir="rtl">
+
+  <!-- title : part1 -->
+  <div class="section2-title space-y-3">
+    <h1 class="section2-title-h1 text-3xl font-extrabold text-slate-100">مهندسی قدرت</h1>
+    <p class="section2-title-p leading-8 text-slate-300">
+      مهندسی قدرت شاخه‌ای از مهندسی برق است که با تولید، انتقال، توزیع و مصرف انرژی الکتریکی در مقیاس بزرگ سروکار دارد.
+      ولتاژها و جریان‌ها اینجا خیلی بزرگ‌تر از مدارهای الکترونیکی هستند: از چند صد ولت در خانه تا صدها هزار ولت در خطوط انتقال.
+    </p>
+  </div>
+
+  <!-- Diffrent : part2 -->
+  <div class="section2-part2 space-y-4">
+    <h2 class="section2-part2-h2 text-xl font-bold text-yellow-400">فرق مهندسی قدرت و الکترونیک</h2>
+    <div class="section2-part2-two-boxs grid gap-4 sm:grid-cols-2">
+      <div class="section2-part2-box1 rounded-xl border border-slate-600 bg-slate-800/60 p-5">
+        <h3 class="section2-part2-box1-h3 mb-2 font-bold text-slate-100">مهندسی قدرت</h3>
+        <p class="section2-part2-box1-p text-sm leading-7 text-slate-300">
+          بیشتر به انتقال و تبدیل انرژی می‌پردازد: ژنراتور، ترانسفورماتور، خطوط انتقال و موتورها.
+          توان‌ها در حد کیلووات و مگاوات‌اند و بازده اهمیت زیادی دارد.
+        </p>
+      </div>
+      <div class="section2-part2-box2 rounded-xl border border-slate-600 bg-slate-800/60 p-5">
+        <h3 class="section2-part2-box2-h3 mb-2 font-bold text-slate-100">الکترونیک</h3>
+        <p class="section2-part2-box2-p text-sm leading-7 text-slate-300">
+          بیشتر به کنترل و پردازش سیگنال می‌پردازد: دیود، ترانزیستور و مدار مجتمع.
+          جریان‌ها معمولاً در حد میلی‌آمپرند.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- مسیر برق -->
+  <div class="space-y-4">
+    <h2 class="text-xl font-bold text-yellow-400">مسیر برق از نیروگاه تا خانه</h2>
+    <p class="leading-8 text-slate-300">
+      شبکه‌ی برق از سه بخش اصلی ساخته شده است و بین آن‌ها ترانسفورماتور ولتاژ را تغییر می‌دهد:
+    </p>
+    <div class="grid gap-4 sm:grid-cols-3">
+
+      <div class="rounded-2xl border rounded-xl border border-slate-600 bg-slate-800/20 p-5">
+        <h3 class="mb-2 font-bold text-slate-100">تولید</h3>
+        <p class="text-sm leading-7 text-slate-300">
+          ژنراتور در نیروگاه (حرارتی، آبی، بادی و...) انرژی مکانیکی را به برق متناوب سه‌فاز تبدیل می‌کند.
+        </p>
+      </div>
+
+      <div class="rounded-2xl border rounded-xl border border-slate-600 bg-slate-800/20 p-5">
+        <h3 class="mb-2 font-bold text-slate-100">انتقال</h3>
+        <p class="text-sm leading-7 text-slate-300">
+          برق با ولتاژ خیلی بالا (مثلاً ۲۳۰ یا ۴۰۰ کیلوولت) از طریق دکل‌ها مسافت‌های طولانی را طی می‌کند.
+        </p>
+      </div>
+
+      <div class="rounded-2xl border rounded-xl border border-slate-600 bg-slate-800/20 p-5">
+        <h3 class="mb-2 font-bold text-slate-100">توزیع</h3>
+        <p class="text-sm leading-7 text-slate-300">
+          پست‌ها ولتاژ را کم می‌کنند تا در نهایت به ۳۸۰ ولت (بین فازها) و ۲۲۰ ولت (فاز و نول) برای مصرف‌کننده برسد.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="rounded-2xl border rounded-xl border border-slate-600 bg-slate-800/20 p-5">
+      <h3 class="mb-2 font-bold text-slate-100">چرا انتقال با ولتاژ بالا؟</h3>
+      <p class="text-sm leading-7 text-slate-300">
+        توان برابر است با ولتاژ ضرب در جریان. برای رساندن یک توان ثابت، اگر ولتاژ را ۱۰ برابر کنیم جریان ۱۰ برابر کمتر می‌شود.
+        چون تلفات خط برابر I² × R است، تلفات حدود ۱۰۰ برابر کم می‌شود.
+      </p>
+    </div>
+  </div>
+
+  <!-- سه فاز -->
+  <div class="space-y-3">
+    <h2 class="text-xl font-bold text-yellow-400">سیستم سه‌فاز چیست؟</h2>
+    <p class="leading-8 text-slate-300">
+      در سیستم سه‌فاز، سه ولتاژ سینوسی با فرکانس یکسان داریم که هر کدام <span class="font-bold text-slate-100">۱۲۰ درجه</span>
+      نسبت به بعدی اختلاف فاز دارند. فرکانس شبکه‌ی برق ایران ۵۰ هرتز است.
+      مزیت‌های سه‌فاز نسبت به تک‌فاز:
+    </p>
+    <ul class="list-disc space-y-2 pr-6 text-slate-300">
+      <li>توان لحظه‌ای تقریباً ثابت است، برای همین موتورهای سه‌فاز نرم‌تر و بدون لرزش کار می‌کنند.</li>
+      <li>برای انتقال توان یکسان، سیم کمتری لازم است و تلفات کمتر می‌شود.</li>
+      <li>ایجاد میدان مغناطیسی گردان در موتورها (القایی) خیلی ساده است.</li>
+    </ul>
+
+    <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
+      <p class="mb-3 text-sm text-slate-300">رابطه‌ی ولتاژ خط و ولتاژ فاز در اتصال ستاره:</p>
+      <p class="rounded-xl bg-slate-950 px-3 py-2 text-center text-yellow-300" dir="ltr">V<sub>L</sub> = √3 × V<sub>ph</sub></p>
+      <p class="mt-3 text-sm leading-7 text-slate-400">
+        مثلاً اگر ولتاژ فاز ۲۲۰ ولت باشد، ولتاژ خط (بین دو فاز) حدود ۲۲۰ × ۱٫۷۳ ≈ ۳۸۰ ولت می‌شود.
+      </p>
+    </div>
+  </div>
+
+  <!-- ترانسفورماتور -->
+  <div class="space-y-3">
+    <h2 class="text-xl font-bold text-yellow-400">ترانسفورماتور چطور کار می‌کند؟</h2>
+    <p class="leading-8 text-slate-300">
+      ترانسفورماتور از دو سیم‌پیچ روی یک هسته‌ی آهنی ساخته می‌شود. جریان متناوب در سیم‌پیچ اولیه شار مغناطیسی متغیر می‌سازد
+      و این شار در سیم‌پیچ ثانویه ولتاژ القا می‌کند. فقط با جریان متناوب (AC) کار می‌کند.
+    </p>
+    <div class="grid gap-4 sm:grid-cols-2">
+      <div class="rounded-2xl border border-emerald-900 bg-emerald-950/30 p-5">
+        <h3 class="mb-2 font-bold text-emerald-300">ترانس کاهنده</h3>
+        <p class="text-sm leading-7 text-slate-300">
+          تعداد دور ثانویه کمتر از اولیه است، پس ولتاژ کم می‌شود (و جریان زیاد می‌شود). مثل ترانس‌های توزیع در محله.
+        </p>
+      </div>
+      <div class="rounded-2xl border border-rose-900 bg-rose-950/30 p-5">
+        <h3 class="mb-2 font-bold text-rose-300">ترانس افزاینده</h3>
+        <p class="text-sm leading-7 text-slate-300">
+          تعداد دور ثانویه بیشتر از اولیه است، پس ولتاژ بالا می‌رود (و جریان کم می‌شود). مثل ترانس‌های کنار نیروگاه.
+        </p>
+      </div>
+    </div>
+    <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
+      <p class="mb-3 text-sm text-slate-300">رابطه‌های ترانسفورماتور ایده‌آل:</p>
+      <div class="space-y-2 text-center text-yellow-300" dir="ltr">
+        <p class="rounded-xl bg-slate-950 px-3 py-2">V<sub>1</sub> / V<sub>2</sub> = N<sub>1</sub> / N<sub>2</sub></p>
+        <p class="rounded-xl bg-slate-950 px-3 py-2">V<sub>1</sub> × I<sub>1</sub> = V<sub>2</sub> × I<sub>2</sub></p>
+      </div>
+      <p class="mt-3 text-sm leading-7 text-slate-400">
+        مثلاً اگر ولتاژ ۲۰٬۰۰۰ ولت را به ۴۰۰ ولت برسانیم، نسبت دورها ۵۰ به ۱ است و جریان ثانویه ۵۰ برابر جریان اولیه می‌شود.
+      </p>
+    </div>
+  </div>
+
+  <!-- توان -->
+  <div class="space-y-4">
+    <h2 class="text-xl font-bold text-yellow-400">سه نوع توان و ضریب توان</h2>
+    <p class="leading-8 text-slate-300">
+      در مدارهای AC که بار سلفی دارند (مثل موتور و ترانس)، ولتاژ و جریان هم‌فاز نیستند. برای همین سه نوع توان داریم:
+    </p>
+    <div class="grid gap-4 sm:grid-cols-3">
+
+      <div class="rounded-2xl border border-slate-800 bg-slate-800/50 p-5">
+        <h3 class="mb-4 font-bold text-slate-100">توان اکتیو (P)</h3>
+        <p class="mb-3 text-sm leading-7 text-slate-300 pb-5">
+          توانی که واقعاً کار انجام می‌دهد (گرما، حرکت، نور). واحدش وات (W) است.
+        </p>
+        <p class="rounded-xl bg-slate-950 px-3 py-2 text-center text-yellow-300" dir="ltr">P = S × cosφ</p>
+      </div>
+
+      <div class="rounded-2xl border border-slate-800 bg-slate-800/50 p-5">
+        <h3 class="mb-2 font-bold text-slate-100">توان راکتیو (Q)</h3>
+        <p class="mb-3 text-sm leading-7 text-slate-300">
+          توانی که بین منبع و بار رفت‌وبرگشت می‌کند و برای ساختن میدان مغناطیسی لازم است. واحدش ولت‌آمپر راکتیو (VAr) است.
+        </p>
+        <p class="rounded-xl bg-slate-950 px-3 py-2 text-center text-yellow-300" dir="ltr">Q = S × sinφ</p>
+      </div>
+
+      <div class="rounded-2xl border border-slate-800 bg-slate-800/50 p-5">
+        <h3 class="mb-2 font-bold text-slate-100">توان ظاهری (S)</h3>
+        <p class="mb-3 text-sm leading-7 text-slate-300 pb-7">
+          ترکیب دو توان بالا که شبکه باید تأمین کند. واحدش ولت‌آمپر (VA) است.
+        </p>
+        <p class="rounded-xl bg-slate-950 px-3 py-2 text-center text-yellow-300" dir="ltr">S² = P² + Q²</p>
+      </div>
+
+    </div>
+
+    <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
+      <p class="text-sm leading-7 text-slate-300">
+        <span class="font-bold text-slate-100">ضریب توان (cosφ)</span> نسبت توان اکتیو به توان ظاهری است و عددی بین ۰ و ۱ دارد.
+        هرچه به ۱ نزدیک‌تر باشد، شبکه بهتر استفاده می‌شود. ضریب توان پایین یعنی برای همان توان مفید جریان بیشتری می‌کشیم و تلفات بالا می‌رود؛
+        به همین دلیل در صنعت از خازن برای اصلاح ضریب توان استفاده می‌کنند.
+      </p>
+    </div>
+  </div>
+
+  <!-- مثال عملی -->
+  <div class="space-y-3">
+    <h2 class="text-xl font-bold text-yellow-400">مثال عملی: توان یک بار سه‌فاز</h2>
+    <p class="leading-8 text-slate-300">
+      برای یک بار سه‌فاز متعادل (مثل موتور سه‌فاز)، با داشتن ولتاژ خط، جریان خط و ضریب توان می‌توانیم توان‌ها را حساب کنیم:
+    </p>
+    <div class="space-y-2 text-center text-yellow-300" dir="ltr">
+      <p class="rounded-xl bg-slate-950 px-3 py-2">P = √3 × V<sub>L</sub> × I<sub>L</sub> × cosφ</p>
+      <p class="rounded-xl bg-slate-950 px-3 py-2">S = √3 × V<sub>L</sub> × I<sub>L</sub></p>
+    </div>
+
+    <div class="grid gap-4 sm:grid-cols-2">
+
+      <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
+        <h3 class="mb-3 font-bold text-slate-100">مثال ۱</h3>
+        <p class="mb-3 text-sm leading-7 text-slate-300">
+          ولتاژ خط 380 ولت، جریان خط 10 آمپر و ضریب توان 0.8 است.
+        </p>
+        <div class="space-y-2 text-center text-yellow-300" dir="ltr">
+          <p class="rounded-xl bg-slate-950 px-3 py-2">S = 1.732 × 380 × 10 ≈ 6582 VA</p>
+          <p class="rounded-xl bg-slate-950 px-3 py-2">P = 6582 × 0.8 ≈ 5265 W</p>
+          <p class="rounded-xl bg-slate-950 px-3 py-2">Q = 6582 × 0.6 ≈ 3949 VAr</p>
+        </div>
+        <p class="mt-3 text-sm leading-7 text-slate-400">
+          وقتی cosφ = 0.8 باشد، sinφ برابر 0.6 است.
+        </p>
+      </div>
+
+      <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
+        <h3 class="mb-3 font-bold text-slate-100">مثال ۲</h3>
+        <p class="mb-3 text-sm leading-7 text-slate-300">
+          ولتاژ خط 380 ولت، جریان خط 20 آمپر و ضریب توان 0.9 است.
+        </p>
+        <div class="space-y-2 text-center text-yellow-300" dir="ltr">
+          <p class="rounded-xl bg-slate-950 px-3 py-2">S = 1.732 × 380 × 20 ≈ 13163 VA</p>
+          <p class="rounded-xl bg-slate-950 px-3 py-2">P = 13163 × 0.9 ≈ 11847 W</p>
+          <p class="rounded-xl bg-slate-950 px-3 py-2">Q = 13163 × 0.436 ≈ 5738 VAr</p>
+        </div>
+        <p class="mt-3 text-sm leading-7 text-slate-400">
+          وقتی cosφ = 0.9 باشد، sinφ حدود 0.436 است.
+        </p>
+      </div>
+
+    </div>
+
+    <p class="text-sm leading-7 text-slate-400">
+      دقت کن که با بالا رفتن ضریب توان، توان راکتیو نسبت به توان اکتیو کمتر می‌شود؛ یعنی بار شبکه را کمتر درگیر می‌کند.
+    </p>
+  </div>
+
+  <!-- جمع‌بندی -->
+  <div class="rounded-2xl border border-yellow-400/40 bg-yellow-400/5 p-5">
+    <h2 class="mb-3 text-lg font-bold text-yellow-400">خلاصه‌ی درس</h2>
+    <ul class="list-disc space-y-2 pr-6 text-sm leading-7 text-slate-300">
+      <li>مهندسی قدرت یعنی تولید، انتقال، توزیع و مصرف انرژی الکتریکی در توان‌های بالا.</li>
+      <li>برق را با ولتاژ بالا منتقل می‌کنند تا جریان و در نتیجه تلفات (I² × R) کم شود.</li>
+      <li>در سه‌فاز ولتاژها ۱۲۰ درجه اختلاف فاز دارند و V<sub>L</sub> = √3 × V<sub>ph</sub>.</li>
+      <li>ترانسفورماتور با نسبت دورها ولتاژ AC را بالا یا پایین می‌برد: V<sub>1</sub> / V<sub>2</sub> = N<sub>1</sub> / N<sub>2</sub>.</li>
+      <li>توان بار سه‌فاز: P = √3 × V<sub>L</sub> × I<sub>L</sub> × cosφ، و ضریب توان هرچه به ۱ نزدیک‌تر بهتر.</li>
+    </ul>
+  </div>
+
+</section>
+
+
+<!-- CTA -->
+<section class="mx-auto max-w-6xl px-6 pb-20">
+  <div class="flex flex-col items-center rounded-2xl border border-yellow-400/20 bg-linear-to-l from-yellow-400/10 to-transparent p-8 text-center sm:flex-row sm:text-right">
+    
+    <div>
+      <h3 class="text-xl font-bold">آماده‌ای مدارها را شروع کنی؟</h3>
+      <p class="mt-1 text-slate-400">درس بعدی: مدارهای الکتریکی</p>
+    </div>
+
+    <!-- گروه دکمه‌ها: می‌چسبه به سمت چپ -->
+    <div class="mt-6 flex flex-col items-center gap-3 sm:mt-0 sm:mr-auto sm:flex-row">
+      <a href="./Control-System.html" class="rounded-lg bg-yellow-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-yellow-300">
+        شروع درس بعد
+      </a>
+      <a href="./Electronic.html" class="rounded-lg border border-slate-700 px-6 py-3 font-semibold text-slate-300 transition hover:text-white">
+        مرور درس قبلی
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
